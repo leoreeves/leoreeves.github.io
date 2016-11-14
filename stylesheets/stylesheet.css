@@ -71,7 +71,7 @@ nav.navbar-default.navbar.navbar-fixed-top {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
-#screenshots {
+.screenshots {
 	max-height: 100%;
 	max-width: 100%;
 	padding: 20px;
@@ -98,9 +98,7 @@ nav.navbar-default.navbar.navbar-fixed-top {
 a:hover {
 	color: #F56E6E;
 }
-a: visited {
-	color: blue;
-}
+
 #contact {
 	background-color: white;
 	color: black;

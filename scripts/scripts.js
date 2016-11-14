@@ -5,7 +5,6 @@ $(window).scroll(function() {
     $(".navbar").css("background", "#344152");
   } else {
     $(".navbar").css("background", "transparent");
-    $(".navbar-default").css("background-color", "transparent !important");
   }
 });
 
