@@ -51,8 +51,6 @@ nav.navbar-default.navbar.navbar-fixed-top {
 	border-color: Transparent !important;
 }
 
-
-
 /*Main Body*/
 
 #main h1 {
@@ -78,6 +76,7 @@ nav.navbar-default.navbar.navbar-fixed-top {
 	max-width: 100%;
 	padding: 20px;
 	margin: 0 auto;
+	border-style: solid;
 }
 #about-me {
 	background-color: #65799B;
