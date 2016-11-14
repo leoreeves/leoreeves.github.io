@@ -4,7 +4,8 @@ $(window).scroll(function() {
   if (scrollPos > 0) {
     $(".navbar").css("background", "#344152");
   } else {
-    $(".navbar").css("background", "Transparent");
+    $(".navbar").css("background", "transparent");
+    $(".navbar-default").css("background-color", "transparent !important");
   }
 });
 

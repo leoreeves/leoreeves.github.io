@@ -1,25 +1,28 @@
 body {
 	background: url('https://i.imgsafe.org/31886b292b.jpeg')no-repeat fixed;
 	background-size: 100%;
-	color: white;
 	font-family: 'Lato', sans-serif;
 	padding-top: 70px;
 	position: relative;
 }
+
+/*Navbar*/
+
+nav.navbar-default.navbar.navbar-fixed-top {
+	background: none;
+}
+
 .navbar {
 	-webkit-transition: all 0.6s ease-out;
 	-moz-transition: all 0.6s ease-out;
 	-o-transition: all 0.6s ease-out;
 	-ms-transition: all 0.6s ease-out;
 	transition: all 0.6s ease-out;
+	border-color: transparent !important;
+	background: none;
+	text-align: center;
 }
-.navbar {
-	background-color: #344152;
-	border-color: Transparent;
-}
-.nav {
-	border-color: Transparent;
-}
+
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
 	border: 0px solid transparent;
 }
@@ -27,32 +30,39 @@ body {
 	color: white;
 	font-weight: bold;
 	letter-spacing: 2px;
+	border-color: transparent;
 }
-.navbar {
-	background: transparent;
-	text-align: center;
-}
+
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
 }
+
 .navbar .brand, .navbar .nav>li>a:hover {
 	color: #F56E6E;
 }
-.navbar .brand, .navbar .nav>li>a:focus {
+.navbar .brand, .navbar .nav>li>a:focus {	
 	color: white;
 }
+
 .navbar-nav>.active>a, .navbar-nav>.active>a:hover {
 	color: #F56E6E !important;
 	background-color: Transparent !important;
 	border-color: Transparent !important;
 }
+
+
+
+/*Main Body*/
+
 #main h1 {
+	padding-top: 20px;
 	font-size: 10vw;
+	color: white;
 }
 #main h2 {
 	font-size: 5vw;
-	//text-transform: uppercase;
+	color: white;
 }
 #portfolio {
 	background-color: white;
@@ -114,12 +124,7 @@ a: visited {
 	margin: 5px;
 	white-space: normal;
 }
-//#footer h1 {
-font-weight: bold;
-text-transform: uppercase;
-padding-bottom: 20px;
 
-}
 .content-section {
 	padding: 50px 25px;
 }
