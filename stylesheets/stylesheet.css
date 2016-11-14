@@ -1,172 +1,135 @@
 body {
-  background: url('https://i.imgsafe.org/31886b292b.jpeg')no-repeat fixed;
-  background-size: 100%;
-  color: white;
-  font-family: 'Lato', sans-serif;
-  padding-top: 70px;
-  position: relative;
-  
+	background: url('https://i.imgsafe.org/31886b292b.jpeg')no-repeat fixed;
+	background-size: 100%;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	padding-top: 70px;
+	position: relative;
 }
-
 .navbar {
-  -webkit-transition: all 0.6s ease-out;
-  -moz-transition: all 0.6s ease-out;
-  -o-transition: all 0.6s ease-out;
-  -ms-transition: all 0.6s ease-out;
-  transition: all 0.6s ease-out;
+	-webkit-transition: all 0.6s ease-out;
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	-ms-transition: all 0.6s ease-out;
+	transition: all 0.6s ease-out;
 }
-
 .navbar {
-  background-color: #344152;
-  border-color: Transparent;
+	background-color: #344152;
+	border-color: Transparent;
 }
-
 .nav {
-  border-color: Transparent;
+	border-color: Transparent;
 }
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  border: 0px solid transparent;
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	border: 0px solid transparent;
 }
-
-.navbar-default .navbar-nav> li > a {
-  color: white;
-  font-weight: bold;
-  letter-spacing: 2px;
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
-
 .navbar {
-  background: transparent;
-  text-align: center;
+	background: transparent;
+	text-align: center;
 }
-
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
+	display: inline-block;
+	float: none;
 }
-
-.navbar .brand,
-.navbar .nav > li > a:hover {
-  color: #F56E6E;
+.navbar .brand, .navbar .nav>li>a:hover {
+	color: #F56E6E;
 }
-
-.navbar .brand,
-.navbar .nav > li > a:focus {
-  color: white;
+.navbar .brand, .navbar .nav>li>a:focus {
+	color: white;
 }
-
-.navbar-nav> .active > a,
-.navbar-nav > .active > a:hover {
-  color: #F56E6E !important;
-  background-color: Transparent !important;
-  border-color: Transparent !important;
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover {
+	color: #F56E6E !important;
+	background-color: Transparent !important;
+	border-color: Transparent !important;
 }
-
 #main h1 {
-  font-size: 10vw;
+	font-size: 10vw;
 }
-
 #main h2 {
-  font-size: 5vw;
-  //text-transform: uppercase;
+	font-size: 5vw;
+	//text-transform: uppercase;
 }
-
 #portfolio {
-  background-color: white;
-  color: black;
+	background-color: white;
+	color: black;
 }
-
 #portfolio h1 {
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
-
 #screenshots {
-  max-height: 100%;
-  max-width: 100%;
-  padding: 20px;
-  margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
 }
-
 #about-me {
-  background-color: #65799B;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	background-color: #65799B;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
 #about-me h1 {
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-bottom: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 20px;
 }
-
-#about-me  p {
-  font-size: 20px;
+#about-me p {
+	font-size: 20px;
 }
-
 #about-me a {
-  color: #F56E6E;
+	color: #F56E6E;
 }
-
 a:hover {
-  color: #F56E6E;
+	color: #F56E6E;
 }
-
 a: visited {
-  color: blue;
+	color: blue;
 }
-
 #contact {
-  background-color: white;
-  color: black;
-  margin-bottom: 0px;
-  border-bottom: none;
+	background-color: white;
+	color: black;
+	margin-bottom: 0px;
+	border-bottom: none;
 }
-
 #contact h1 {
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-bottom: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 20px;
 }
-
 #contact h2 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-
 #contact h3 {
-  padding-top: 20px;
+	padding-top: 20px;
 }
-
 .social {
-    margin:5px;
-  white-space: normal;
+	margin: 5px;
+	white-space: normal;
 }
-
 //#footer h1 {
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-bottom: 20px;
-}
+font-weight: bold;
+text-transform: uppercase;
+padding-bottom: 20px;
 
+}
 .content-section {
-  padding: 50px 25px;
+	padding: 50px 25px;
 }
-
 .fa {
-  font-size: 30px;
-  letter-spacing: 15px;
+	font-size: 30px;
+	letter-spacing: 15px;
 }
-
-
 a {
-  color: white;
+	color: white;
 }
-
 .link {
-  font-weight: bold;
+	font-weight: bold;
 }
-
