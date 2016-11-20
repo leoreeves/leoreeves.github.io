@@ -1,8 +1,7 @@
 body {
 	background: url('https://i.imgsafe.org/31886b292b.jpeg')no-repeat fixed;
-	background-size: 100%;
+	background-size: cover;
 	font-family: 'Lato', sans-serif;
-	padding-top: 70px;
 	position: relative;
 }
 
@@ -53,13 +52,14 @@ nav.navbar-default.navbar.navbar-fixed-top {
 
 /*Main Body*/
 
+
 #main h1 {
-	padding-top: 20px;
-	font-size: 10vw;
+	font-size: 6vw;
 	color: white;
+	padding-top: 20px;
 }
 #main h2 {
-	font-size: 5vw;
+	font-size: 2vw;
 	color: white;
 }
 #portfolio {
@@ -138,4 +138,21 @@ a {
 
 .portrait {
 	margin-bottom: 20px;
+}
+
+#external {
+	background-color: #2C3E50;
+	color: white;
+	margin-bottom: 0px;
+	border-bottom: none;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#footer {
+	background-color: #233140;
+	color: white;
+	text-align: center;
 }

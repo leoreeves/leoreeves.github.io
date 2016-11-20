@@ -3,14 +3,16 @@ $(window).scroll(function() {
   var scrollPos = $('body').scrollTop();
   if (scrollPos > 0) {
     $(".navbar").css("background", "#344152");
-  } else {
+  } else if ($(window).width() > 765) {
     $(".navbar").css("background", "transparent");
   }
 });
 
-// Fade scroll
-$(window).scroll(function() {
-  $("#main").css("opacity", 1 - $(window).scrollTop() / 500);
+// Hide/Show navbar on reducing window size
+$(window).resize(function() {
+  if ($(window).width() < 765) {
+     $(".navbar").css("background", "#344152");
+  }
 });
 
 // Smooth scroll
