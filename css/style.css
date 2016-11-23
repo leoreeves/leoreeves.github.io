@@ -1,0 +1,65 @@
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+    background: #5C6BC0;
+}
+
+.navbar-custom {
+    background-color: #283593;
+}
+
+header {
+    background: url('https://i.imgsafe.org/31886b292b.jpeg')no-repeat fixed;
+	background-size: cover;
+}
+
+.name {
+    text-transform: lowercase;
+}
+
+#profile-pic {
+    display: inline;
+    margin-bottom: 20px;
+}
+
+#FCC a {
+    color: #EC407A;
+}
+
+section.success {
+    background: #5C6BC0;
+}
+
+.btn-success {
+    background-color: #3949AB;
+    border-color: #3949AB;
+}
+
+
+.btn-success:hover {
+    background-color: #283593;
+    border-color: #283593;
+}
+
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    background: rgba(92, 107, 192, .9);
+}
+
+footer .footer-above {
+    background-color: #3949AB;
+}
+
+footer .footer-below {
+    background-color: #283593;
+}
+
+h2 {
+    padding-bottom: 50px;
+}
+
+.floating-label-form-group-with-value label {
+    color: #3949AB;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #3949AB;
+}
