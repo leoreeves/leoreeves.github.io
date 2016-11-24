@@ -47,7 +47,7 @@ section.success {
 
 
 .btn-success:active {
-    background-color: #283593;
+    	background-color: #283593;
 	border-color: #283593;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -56,6 +56,15 @@ section.success {
 .btn-social:hover {
 	color: #283593;
 }
+
+.btn-social:hover {
+	color: #283593;
+}
+
+.btn-outline:hover {
+	color: #F06292;
+}
+
 footer .footer-above {
 	background-color: #3949AB;
 }
