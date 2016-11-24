@@ -5,3 +5,5 @@ Based on this [Start Bootstrap theme](https://startbootstrap.com/template-overvi
 
 Changes to implement:
 * Fix contact form
+* Add downloadable CV
+* Animate handshake icon on scroll
