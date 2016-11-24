@@ -1,6 +1,12 @@
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
 	background: #5C6BC0;
 }
+
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+    background-color: #5C6BC0;
+    border-color: #5C6BC0;
+
+}
 .navbar-custom {
 	background-color: #283593;
 }
@@ -36,34 +42,36 @@ section.success {
 	background-color: #3949AB;
 	border-color: #3949AB;
 }
-.btn-success:hover{
-	background-color: #283593;
-	border-color: #283593;
-}
-.btn-success:target{
-	background-color: #283593;
-	border-color: #283593;
+.btn-success:hover, .btn-success:target, .btn-success:active, .btn-success:focus {
+	background-color: #283593 !important;
+	border-color: #283593 !important;
 }
 
-
-.btn-success:active {
-    	background-color: #283593;
-	border-color: #283593;
-}
 #portfolio .portfolio-item .portfolio-link .caption {
 	background: rgba(92, 107, 192, .9);
 }
-.btn-social:hover {
+.btn-social:hover, .btn-social:focus{
 	color: #283593;
 }
 
-.btn-social:hover {
-	color: #283593;
-}
-
-.btn-outline:hover {
+.btn-outline:hover, .btn-outline:focus {
 	color: #F06292;
 }
+
+.fa-handshake-o {
+	-webkit-vendor-animation-delay: 5s;
+	-webkit-animation-iteration-count: 3;
+}
+
+#greeting {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+a, a.active, a:active, a:focus, a:hover {
+	color: #F06292;
+}
+
 
 footer .footer-above {
 	background-color: #3949AB;
