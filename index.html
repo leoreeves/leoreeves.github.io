@@ -169,31 +169,23 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-					<!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-					<form id="contactForm" name="sentMessage" novalidate="">
+					<form id="contactForm" name="sentMessage" novalidate="" form method="POST" action="http://formspree.io/stejuricog@throwam.com">
 						<div class="row control-group">
 							<div class="form-group col-xs-12 floating-label-form-group controls">
-								<label>Name</label> <input class="form-control" data-validation-required-message="Please enter your name." id="name" placeholder="Name" required="" type="text">
+								<label>Name</label> <input class="form-control" data-validation-required-message="Please enter your name." id="name" placeholder="Name" required="" type="text" name="name">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
 						<div class="row control-group">
 							<div class="form-group col-xs-12 floating-label-form-group controls">
-								<label>Email Address</label> <input class="form-control" data-validation-required-message="Please enter your email address." id="email" placeholder="Email Address" required="" type="email">
-								<p class="help-block text-danger"></p>
-							</div>
-						</div>
-						<div class="row control-group">
-							<div class="form-group col-xs-12 floating-label-form-group controls">
-								<label>Phone Number</label> <input class="form-control" data-validation-required-message="Please enter your phone number." id="phone" placeholder="Phone Number" required="" type="tel">
+								<label>Email Address</label> <input class="form-control" data-validation-required-message="Please enter your email address." id="email" placeholder="Email Address" required="" type="email" name="_replyto">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
 						<div class="row control-group">
 							<div class="form-group col-xs-12 floating-label-form-group controls">
 								<label>Message</label> 
-								<textarea class="form-control" data-validation-required-message="Please enter a message." id="message" placeholder="Message" required="" rows="5"></textarea>
+								<textarea class="form-control" data-validation-required-message="Please enter a message." id="message" placeholder="Message" required="" rows="5" name="message"></textarea>
 								<p class="help-block text-danger"></p>
 							</div>
 						</div><br>
@@ -395,7 +387,7 @@
 	 
 	<script src="js/jqBootstrapValidation.js">
 	</script> 
-	<script src="js/contact_me.js">
+	<script src="js/cantact_me.js">
 	</script> 
     
     <!-- Theme JavaScript -->
