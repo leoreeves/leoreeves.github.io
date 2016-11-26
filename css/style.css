@@ -42,7 +42,7 @@ section.success {
 	background-color: #3949AB;
 	border-color: #3949AB;
 }
-.btn-success:hover, .btn-success:target, .btn-success:active, .btn-success:focus {
+.btn-success:hover, .btn-success:target, .btn-success:active, .btn-success:focus, .btn-success.disabled {
 	background-color: #283593 !important;
 	border-color: #283593 !important;
 }
