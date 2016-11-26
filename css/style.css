@@ -58,11 +58,6 @@ section.success {
 	color: #F06292;
 }
 
-.fa-handshake-o {
-	-webkit-vendor-animation-delay: 5s;
-	-webkit-animation-iteration-count: 3;
-}
-
 #greeting {
 	font-size: 200%;
 	font-weight: bold;
