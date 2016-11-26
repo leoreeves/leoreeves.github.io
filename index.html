@@ -169,7 +169,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<form id="contactForm" name="sentMessage" novalidate="" method="POST" action="//formspree.io/stejuricog@throwam.com">
+					<form id="contactForm" name="sentMessage" novalidate="" method="POST">
 						<div class="row control-group">
 							<div class="form-group col-xs-12 floating-label-form-group controls">
 								<label>Name</label> <input class="form-control" data-validation-required-message="Please enter your name." id="name" placeholder="Name" required="" type="text" name="name">
@@ -178,7 +178,8 @@
 						</div>
 						<div class="row control-group">
 							<div class="form-group col-xs-12 floating-label-form-group controls">
-								<label>Email Address</label> <input class="form-control" data-validation-required-message="Please enter your email address." id="email" placeholder="Email Address" required="" type="email" name="_replyto">
+								<label>Email Address</label> <input type="email" name="_replyto" class="form-control" data-validation-required-message="Please enter your email address." id="email" placeholder="Email Address" required="">
+								<input type="hidden" name="_subject" value="Portfolio contact" />
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
@@ -186,28 +187,17 @@
 							<div class="form-group col-xs-12 floating-label-form-group controls">
 								<label>Message</label> 
 								<textarea class="form-control" data-validation-required-message="Please enter a message." id="message" placeholder="Message" required="" rows="5" name="message"></textarea>
+								<input type="text" name="_gotcha" style="display:none" />
 								<p class="help-block text-danger"></p>
 							</div>
 						</div><br>
 						<div id="success"></div>
 						<div class="row">
 							<div class="form-group col-xs-12">
-								<button class="btn btn-success btn-lg" type="submit">Send</button>
+								<input type="submit" class="btn btn-success btn-lg" value="Send">
 							</div>
 						</div>
-					</form>
-					<form id="contactform" method="POST">
-					<input type="text" name="name" placeholder="Your name">
-					<input type="email" name="_replyto" placeholder="Your email">
-					<input type="hidden" name="_subject" value="Website contact" />
-					<textarea name="message" placeholder="Your message"></textarea>
-					<input type="text" name="_gotcha" style="display:none" />
-					<input type="submit" value="Send">
-				</form>
-				<script>
-					var contactform =  document.getElementById('contactform');
-					contactform.setAttribute('action', 'https://formspree.io/' + 'stejuricog' + '@' + 'throwam' + '.' + 'com');
-				</script>
+					</form>				
 				</div>
 			</div>
 		</div>
@@ -380,6 +370,11 @@
 			</div>
 		</div>
 	</div>
+
+	<script>
+		var contactform =  document.getElementById('contactform');
+		contactform.setAttribute('action', 'https://formspree.io/' + 'stejuricog' + '@' + 'throwam' + '.' + 'com');
+	</script>
 	
     <!-- jQuery -->
 	<script src="vendor/jquery/jquery.min.js">
