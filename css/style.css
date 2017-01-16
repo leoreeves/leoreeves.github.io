@@ -1,37 +1,39 @@
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
 	background: #5C6BC0;
 }
-
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
     background-color: #5C6BC0;
     border-color: #5C6BC0;
-
 }
 .navbar-custom {
 	background-color: #283593;
 }
-
 .navbar-custom .navbar-nav li a:hover {
     color: #F06292;
     outline: 0;
 }
-
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
     background: #283593;
     color: #F06292;
 }
-
 header {
-	background-size: cover;
+	background: url(https://i.imgsafe.org/31886b292b.jpeg) fixed;
 }
-.name {
-	text-transform: lowercase;
+h1 {
+	font-size: 1em;
 }
-#profile-pic {
+h2 {
+	padding-bottom: 40px;
+}
+.professional-position {
+	font-size: 2em;
+	padding-bottom: 0;
+}
+.profile-pic {
 	display: inline;
 	margin-bottom: 20px;
 }
-#FCC a {
+.FCC a {
 	color: #F06292;
 }
 section.success {
@@ -45,40 +47,42 @@ section.success {
 	background-color: #283593 !important;
 	border-color: #283593 !important;
 }
-
 #portfolio .portfolio-item .portfolio-link .caption {
 	background: rgba(92, 107, 192, .9);
 }
 .btn-social:hover, .btn-social:focus{
 	color: #283593;
 }
-
 .btn-outline:hover, .btn-outline:focus {
 	color: #F06292;
 }
-
-#greeting {
+.greeting {
 	font-size: 200%;
 	font-weight: bold;
 }
-
 a, a.active, a:active, a:focus, a:hover {
 	color: #F06292;
 }
-
-
 footer .footer-above {
 	background-color: #3949AB;
 }
 footer .footer-below {
 	background-color: #283593;
 }
-h2 {
-	padding-bottom: 40px;
-}
 .floating-label-form-group-with-value label {
 	color: #3949AB;
 }
 .floating-label-form-group-with-focus label {
 	color: #3949AB;
+}
+
+/*Responsive queries*/
+
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 1.2em;
+	}
+	.professional-position {
+		font-size: 1.3em;
+	}
 }

@@ -52,12 +52,13 @@
 		</div><!-- /.container-fluid -->
 	</nav>
     <!-- Header -->
-	<header style="background: url(https://i.imgsafe.org/31886b292b.jpeg) fixed;">
+	<header>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="intro-text">
-						<span class="name">Leo Reeves</span> <span class="skills"><b>Web Developer</b></span>
+						<span class="name"><h1>Leo Reeves</h1></span>
+						<span><strong><h2 class="professional-position">Web Developer</h2></strong></span>
                         <ul class="list-inline">
 							<li>
 								<a class="btn-social btn-outline" href="https://github.com/LeoReeves"><i class="fa fa-fw fa-github"></i></a>
@@ -92,7 +93,7 @@
 						<div class="caption-content">
 							<i class="fa fa-search-plus fa-3x"></i>
 						</div>
-					</div><img alt="" class="img-responsive" src="img/portfolio/tribute.png"></a>
+					</div><img alt="Elliott Smith Tribute Page" class="img-responsive" src="img/portfolio/tribute.png"></a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
 					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
@@ -100,7 +101,7 @@
 						<div class="caption-content">
 							<i class="fa fa-search-plus fa-3x"></i>
 						</div>
-					</div><img alt="" class="img-responsive" src="img/portfolio/quote.png"></a>
+					</div><img alt="Random Quote Generator" class="img-responsive" src="img/portfolio/quote.png"></a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
 					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
@@ -108,7 +109,7 @@
 						<div class="caption-content">
 							<i class="fa fa-search-plus fa-3x"></i>
 						</div>
-					</div><img alt="" class="img-responsive" src="img/portfolio/clock.png"></a>
+					</div><img alt="Simple Clock" class="img-responsive" src="img/portfolio/clock.png"></a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
 					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
@@ -116,7 +117,7 @@
 						<div class="caption-content">
 							<i class="fa fa-search-plus fa-3x"></i>
 						</div>
-					</div><img alt="" class="img-responsive" src="img/portfolio/color.png"></a>
+					</div><img alt="Hex Color Generator" class="img-responsive" src="img/portfolio/color.png"></a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
 					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
@@ -124,7 +125,7 @@
 						<div class="caption-content">
 							<i class="fa fa-search-plus fa-3x"></i>
 						</div>
-					</div><img alt="" class="img-responsive" src="img/portfolio/VAT.png"></a>
+					</div><img alt="VAT Calculator" class="img-responsive" src="img/portfolio/VAT.png"></a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
 					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
@@ -132,7 +133,7 @@
 						<div class="caption-content">
 							<i class="fa fa-search-plus fa-3x"></i>
 						</div>
-					</div><img alt="" class="img-responsive" src="img/portfolio/weather.png"></a>
+					</div><img alt="Weather App" class="img-responsive" src="img/portfolio/weather.png"></a>
 				</div>
 			</div>
 		</div>
@@ -142,16 +143,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-				<h2>About</h2><img alt="Profile photo" class="img-responsive img-circle" id="profile-pic" src="https://avatars0.githubusercontent.com/u/15375448?v=3&u=444a25cc7bf91b931363c836f254bf8a7b657ca1&s=400"></div>
+				<h2>About</h2><img alt="Profile photo" class="img-responsive img-circle profile-pic" src="https://avatars0.githubusercontent.com/u/15375448?v=3&u=444a25cc7bf91b931363c836f254bf8a7b657ca1&s=400"></div>
 			</div>
 			<div class="row">
-				<p id ="greeting" class="text-center"><i class="fa fa-handshake-o wow bounce" aria-hidden="true"></i> Hi, I'm Leo!</p>
+				<p class="text-center greeting"><i class="fa fa-handshake-o wow bounce" aria-hidden="true"></i> Hi, I'm Leo!</p>
 				<div class="col-lg-4 col-lg-offset-2">
 					<p>I am a self-taught web developer with a passion for design and improvement.</p>
 					<p>I spend a lot of time teaching myself new things and making <a href="https://github.com/LeoReeves/projects">projects</a>.</p>
 				</div>
 				<div class="col-lg-4">
-					<p id="FCC">I am currently working through the <a href="https://www.freecodecamp.com/leoreeves">Free Code Camp</a> curriculum.</p>
+					<p class="FCC">I am currently working through the <a href="https://www.freecodecamp.com/leoreeves">Free Code Camp</a> curriculum.</p>
 					<p>Some things I've been using: HTML5, CSS, Bootstrap, JavaScript, jQuery, Python & GitHub.</p>
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 text-center">
@@ -173,13 +174,13 @@
 					<form data-toggle="validator" id="contactForm" name="sentMessage" method="POST">
 						<div class="row control-group">
 							<div class="form-group col-xs-12 floating-label-form-group controls">
-								<label>Name</label> <input class="form-control" id="name" placeholder="Name" type="text" name="name" data-error="Please enter your name" required>
+								<label>Name</label><input class="form-control" id="name" placeholder="Name" type="text" name="name" title="Please enter your name" data-error="Please enter your name" required>
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="row control-group">
 							<div class="form-group col-xs-12 floating-label-form-group controls">
-								<label>Email Address</label> <input type="email" name="_replyto" class="form-control"  data-error="Please enter a valid email address" id="email" placeholder="Email Address" required>
+								<label>Email Address</label> <input type="email" name="_replyto" class="form-control" title="Please enter a valid email address"  data-error="Please enter a valid email address" id="email" placeholder="Email Address" required>
 								<div class="help-block with-errors"></div>
 								<input type="hidden" name="_subject" value="Portfolio contact" />
 							</div>
@@ -210,7 +211,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						Copyright &copy; Leo Reeves 2016
+						Copyright &copy; Leo Reeves 2017
 					</div>
 				</div>
 			</div>
