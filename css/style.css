@@ -19,6 +19,17 @@
 header {
 	background: url(https://i.imgsafe.org/31886b292b.jpeg) fixed;
 }
+.hidden-links{
+	border: 0;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    position: absolute;
+}
 h1 {
 	font-size: 1em;
 }
