@@ -2,87 +2,118 @@
 	background: #5C6BC0;
 }
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
-    background-color: #5C6BC0;
-    border-color: #5C6BC0;
+  background-color: #5C6BC0;
+  border-color: #5C6BC0;
 }
+
 .navbar-custom {
 	background-color: #283593;
 }
+
 .navbar-custom .navbar-nav li a:hover {
-    color: #F06292;
-    outline: 0;
+  color: #F06292;
+  outline: 0;
 }
+
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
-    background: #283593;
-    color: #F06292;
+  background: #283593;
+  color: #F06292;
 }
+
 header {
 	background: url(https://i.imgsafe.org/31886b292b.jpeg) fixed;
 }
 .hidden-links{
 	border: 0;
-    clip: rect(0 0 0 0);
-    clip: rect(0, 0, 0, 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    width: 1px;
-    position: absolute;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  width: 1px;
+  position: absolute;
 }
+
 h1 {
 	font-size: 1em;
 }
+
 h2 {
 	padding-bottom: 40px;
 }
+
 .professional-position {
 	font-size: 2em;
 	padding-bottom: 0;
 }
+
 .profile-pic {
 	display: inline;
 	margin-bottom: 20px;
 }
+
 .FCC a {
 	color: #F06292;
 }
+
 section.success {
 	background: #5C6BC0;
 }
+
+#portfolio .portfolio-item .portfolio-link .caption {
+	background: rgba(92, 107, 192, .9);
+}
+
 .btn-success {
 	background-color: #3949AB;
 	border-color: #3949AB;
 }
-.btn-success:hover, .btn-success:target, .btn-success:active, .btn-success:focus, .btn-success.disabled {
+
+.btn-success:hover, 
+.btn-success:target, 
+.btn-success:active, 
+.btn-success:focus, 
+.btn-success.disabled {
 	background-color: #283593 !important;
 	border-color: #283593 !important;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
-	background: rgba(92, 107, 192, .9);
-}
-.btn-social:hover, .btn-social:focus{
+
+.btn-social:hover, 
+.btn-social:focus{
 	color: #283593;
 }
-.btn-outline:hover, .btn-outline:focus {
+
+.btn-outline:hover, 
+.btn-outline:focus {
 	color: #F06292;
 }
+
 .greeting {
 	font-size: 200%;
 	font-weight: bold;
 }
-a, a.active, a:active, a:focus, a:hover {
+
+a,
+a.active, 
+a:active, 
+a:focus, 
+a:hover {
 	color: #F06292;
 }
+
 footer .footer-above {
 	background-color: #3949AB;
 }
+
 footer .footer-below {
 	background-color: #283593;
 }
+
 .floating-label-form-group-with-value label {
 	color: #3949AB;
 }
+
 .floating-label-form-group-with-focus label {
 	color: #3949AB;
 }
