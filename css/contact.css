@@ -1,23 +1,24 @@
-html, body {
-    width: 100%;
-    height: 100%;
+html, 
+body {
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    font-size: 120%;
-    margin: 0;
-    display: table;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 120%;
+  margin: 0;
+  display: table;
 }
 
-body>div {
-    display: table-cell; 
-    text-align: center; /* horizontal */
-    vertical-align: middle; /* vertical */
+body > div {
+  display: table-cell; 
+  text-align: center;
+  vertical-align: middle;
 }
 
 .fa-check {
-    color: #4CAF50;
-    font-size: 400%;
+  color: #4CAF50;
+  font-size: 400%;
 }
