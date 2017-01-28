@@ -55,8 +55,18 @@ h2 {
 	margin-bottom: 20px;
 }
 
-.FCC a {
-	color: #F06292;
+.skills {
+  word-spacing: 5px;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+.contact {
+  padding-bottom: 25px;
+}
+
+.contact-message {
+  padding-bottom: 10px;
 }
 
 section.success {
@@ -129,4 +139,16 @@ footer .footer-below {
 	.professional-position {
 		font-size: 1.3em;
 	}
+}
+
+@media screen and (min-width: 1200px) {
+  .skills-heading {
+      padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { 
+    .about-description {
+      text-align: center;
+    }
 }
