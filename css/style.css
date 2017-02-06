@@ -22,7 +22,7 @@
 }
 
 header {
-	background: url(https://i.imgsafe.org/31886b292b.jpeg) fixed;
+	background: url('../img/background.jpg') fixed;
 }
 
 .hidden-links {
