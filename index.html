@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/animate/css/animate.min.css">
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="css/freelancer.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="resources/css/freelancer.min.css">
+    <link rel="stylesheet" href="resources/css/style.min.css">
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Montserrat">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -87,52 +87,52 @@
         </div>
         <div class="row">
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <a class="portfolio-link" data-keyboard="true" data-toggle="modal" href="#portfolioModal1">
             <div class="caption">
               <div class="caption-content">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
-            </div><img alt="Elliott Smith Tribute Page" class="img-responsive" src="img/portfolio/tribute.png"></a>
+            </div><img alt="Elliott Smith Tribute Page" class="img-responsive" src="resources/images/tribute.png"></a>
           </div>
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-keyboard="true" data-toggle="modal" href="#portfolioModal2">
             <div class="caption">
               <div class="caption-content">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
-            </div><img alt="Random Quote Generator" class="img-responsive" src="img/portfolio/quote.png"></a>
+            </div><img alt="Random Quote Generator" class="img-responsive" src="resources/images/quote.png"></a>
           </div>
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" data-keyboard="true" href="#portfolioModal3">
             <div class="caption">
               <div class="caption-content">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
-            </div><img alt="Simple Clock" class="img-responsive" src="img/portfolio/clock.png"></a>
+            </div><img alt="Simple Clock" class="img-responsive" src="resources/images/clock.png"></a>
           </div>
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <a class="portfolio-link" data-toggle="modal" data-keyboard="true" href="#portfolioModal4">
             <div class="caption">
               <div class="caption-content">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
-            </div><img alt="Hex Colour Generator" class="img-responsive" src="img/portfolio/color.png"></a>
+            </div><img alt="Hex Colour Generator" class="img-responsive" src="resources/images/color.png"></a>
           </div>
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <a class="portfolio-link" data-toggle="modal" data-keyboard="true" href="#portfolioModal5">
             <div class="caption">
               <div class="caption-content">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
-            </div><img alt="VAT Calculator" class="img-responsive" src="img/portfolio/VAT.png"></a>
+            </div><img alt="VAT Calculator" class="img-responsive" src="resources/images/VAT.png"></a>
           </div>
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <a class="portfolio-link" data-toggle="modal" data-keyboard="true" href="#portfolioModal6">
             <div class="caption">
               <div class="caption-content">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
-            </div><img alt="Weather App" class="img-responsive" src="img/portfolio/weather.png"></a>
+            </div><img alt="Weather App" class="img-responsive" src="resources/images/weather.png"></a>
           </div>
         </div>
       </div>
@@ -196,7 +196,9 @@
               <div class="row">
                 <div class="form-group col-xs-12">
                   <input type="hidden" name="_next" value="https://leoreeves.github.io/contact.html" />
-                  <input type="submit" id="btn-submit" class="btn btn-success btn-lg" value="Send">
+                  <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <input type="submit" id="btn-submit" class="btn btn-success btn-lg" value="Send">
+                  </div>
                 </div>
               </div>
             </form>				
@@ -217,7 +219,7 @@
       </div>
     </footer>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+    <div class="scroll-top page-scroll hidden-lg hidden-md hidden-sm">
       <a class="btn btn-primary" href="#page-top"><i class="fa fa-chevron-up"></i></a>
     </div>
     <!-- Portfolio Modals -->
@@ -232,9 +234,9 @@
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
-                <h2>Elliott Smith Tribute Page</h2><img alt="Elliott Smith Tribute Page" class="img-responsive img-centered" src="img/portfolio/tribute.png">
+                <h2>Elliott Smith Tribute Page</h2><img alt="Elliott Smith Tribute Page" class="img-responsive img-centered" src="resources/images/tribute.png">
                 <p>A tribute page to the musician Elliott Smith, with a biography, discography and photographs of the artist.</p>
-                <p>Built using: HTML/CSS/Bootstrap</p>
+                <h3>HTML &bull; CSS &bull; Bootstrap</h3>
                 <ul class="list-inline item-details">
                   <li>Demo @ <strong><a href="https://leoreeves.github.io/projects/elliott-smith-tribute-page/">Elliott Smith Tribute Page</a></strong></li>
                   <li>Code @ <strong><a href="https://github.com/LeoReeves/projects/tree/master/elliott-smith-tribute-page">GitHub</a></strong></li>
@@ -257,10 +259,9 @@
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
-                <h2>Random Quote Generator</h2><img alt="Random Quote Generator" class="img-responsive img-centered" src="img/portfolio/quote.png">
-                <p>A minimial app that allows the user to both generate and tweet out quotes.</p> 
-                <p>Built using: HTML/CSS/jQuery/Bootstrap</p>
-                <p>Powered by <a href="http://forismatic.com/en/api/">Forismatic API.</a></p>
+                <h2>Random Quote Generator</h2><img alt="Random Quote Generator" class="img-responsive img-centered" src="resources/images/quote.png">
+                <p>A minimial quote generator powered by <a href="http://forismatic.com/en/api/">Forismatic API</a>. Users can tweet out their favourite quotes.</p> 
+                <h3>HTML &bull; CSS &bull; jQuery &bull; Bootstrap</h3>
                 <ul class="list-inline item-details">
                   <li>Demo @ <strong><a href="http://s.codepen.io/leoreeves/debug/PbqNwa">Random Quote Generator</a></strong></li>
                 </ul>
@@ -282,9 +283,9 @@
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
-                <h2>Simple Clock</h2><img alt="Simple Clock" class="img-responsive img-centered" src="img/portfolio/clock.png">
-                <p>A simple clock that allows the user to switch between an analog and digital face.</p>
-                <p>Built using: HTML/CSS/JavaScript</p>
+                <h2>Simple Clock</h2><img alt="Simple Clock" class="img-responsive img-centered" src="resources/images/clock.png">
+                <p>A simple clock with a switchable analog and digital face.</p>
+                <h3>HTML &bull; CSS &bull; JavaScript</h3>
                 <ul class="list-inline item-details">
                   <li>Demo @ <strong><a href="https://leoreeves.github.io/projects/simple-clock/">Simple Clock</a></strong></li>
                   <li>Code @ <strong><a href="https://github.com/LeoReeves/projects/tree/master/simple-clock">GitHub</a></strong></li>
@@ -308,9 +309,9 @@
             <div class="row">
               <div class="modal-body">
                 <h2>Hex Colour Generator</h2>
-                <img alt="Hex Colour Generator" class="img-responsive img-centered" src="img/portfolio/color.png">
+                <img alt="Hex Colour Generator" class="img-responsive img-centered" src="resources/images/color.png">
                 <p>Generates a random hex colour based on user input, with copy to clipboard using <a href="https://clipboardjs.com/">clipboard.js</a>.</p>
-                <p>Built using: HTML/CSS/jQuery</p>
+                <h3>HTML &bull; CSS &bull; jQuery</h3>
                 <ul class="list-inline item-details">
                   <li>Demo @ <strong><a href="https://leoreeves.github.io/projects/hex-colour-generator/">Hex Colour Generator</a></strong></li>
                   <li>Code @ <strong><a href="https://github.com/LeoReeves/projects/tree/master/hex-colour-generator">GitHub</a></strong></li>
@@ -334,9 +335,9 @@
             <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
                 <h2>UK VAT Calculator</h2>
-                <img alt="VAT Calculator" class="img-responsive img-centered" src="img/portfolio/VAT.png">
+                <img alt="VAT Calculator" class="img-responsive img-centered" src="resources/images/VAT.png">
                 <p>A minimal calculator for quickly calculating VAT from an input amount.</p>							
-                <p>Built using: HTML/CSS/Bootstrap/JavaScript/jQuery</p>
+                <h3>HTML &bull; CSS &bull; Bootstrap &bull; JavaScript &bull; jQuery</h3>
                 <ul class="list-inline item-details">
                   <li>Demo @ <strong><a href="https://leoreeves.github.io/projects/uk-vat-calculator/">UK VAT Calculator</a></strong></li>
                   <li>Code @ <strong><a href="https://github.com/LeoReeves/projects/tree/master/uk-vat-calculator">GitHub</a></strong></li>
@@ -360,10 +361,10 @@
             <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
                 <h2>Geolocation Weather App</h2>
-                <img alt="Geolocation Weather App" class="img-responsive img-centered" src="img/portfolio/weather.png">
-                <p>A simple app that shows the user their local weather based on their geolocation. The background image changes depending on the time of day and the user can switch between Celsius and Farenheit.</p>
-                <p>Built using: HTML/CSS/Bootstrap/JavaScript/jQuery/AJAX</p>
-                <p>Powered by <a href="https://darksky.net/dev/">Dark Sky API.</a></p>
+                <img alt="Geolocation Weather App" class="img-responsive img-centered" src="resources/images/weather.png">
+                <p>A simple weather app, powered by <a href="https://darksky.net/dev/">Dark Sky API.</a> 
+                It shows the user their local weather based on their geolocation. The background image changes depending on the time of day and the user can switch between temperature units</p>
+                <h3>HTML &bull; CSS &bull; Bootstrap &bull; JavaScript &bull; jQuery &bull; AJAX</h3>
                 <ul class="list-inline item-details">
                   <li>Demo @ <strong><a href="https://leoreeves.github.io/projects/geolocation-weather-app/">Geolocation Weather App</a></strong></li>
                   <li>Code @ <strong><a href="https://github.com/LeoReeves/projects/tree/master/geolocation-weather-app">GitHub</a></strong></li>
@@ -389,8 +390,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
       
     <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="resources/js/freelancer.min.js"></script>
+    <script src="vendor/wow/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
