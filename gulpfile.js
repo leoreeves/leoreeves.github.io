@@ -1,7 +1,7 @@
 const gulp = require('gulp');
-const cleanCSS = require('gulp-clean-css');
-const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
+const sass = require('gulp-sass');
+const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
 
 // browserSync
@@ -13,6 +13,7 @@ gulp.task('serve', ['minify-css'], () => {
   gulp.watch('resources/sass/*.scss', ['minify-css']);
   gulp.watch('resources/css/*.css').on('change', browserSync.reload);
   gulp.watch('*.html').on('change', browserSync.reload);
+  gulp.watch('resources/**/*.js').on('change', browserSync.reload);
 });
 
 // SCSS to CSS
