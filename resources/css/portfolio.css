@@ -42,6 +42,9 @@ h1 {
   font-size: 2.5em;
   padding-bottom: 0; }
 
+.button-list {
+  padding-top: 30px; }
+
 /* Headings */
 h2 {
   padding-bottom: 40px; }
@@ -186,7 +189,7 @@ a:hover {
     justify-content: center; } }
 
 @media screen and (min-width: 767px) {
-  .list-inline > li {
+  .button-list > li {
     flex-direction: row;
     padding-left: 10px;
     padding-right: 10px; }
