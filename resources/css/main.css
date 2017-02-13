@@ -20,8 +20,11 @@ header {
   background: url("./images/background.jpg") fixed;
   background-size: cover;
   height: 100vh;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .hidden-links {
@@ -53,8 +56,11 @@ h2 {
 #portfolio {
   min-height: 100vh;
   width: 100%;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -63,8 +69,11 @@ h2 {
 /* About */
 #about {
   min-height: 100vh;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .profile-pic {
@@ -87,8 +96,11 @@ h2 {
 /* Contact */
 #contact {
   min-height: 87vh;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .contact-message {
@@ -182,22 +194,29 @@ a:hover {
   .btn-social {
     font-size: 2em;
     padding: 10px;
+    display: -ms-flexbox;
     display: flex;
     height: 60px;
     width: 60px;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-pack: center;
     justify-content: center; } }
 
 @media screen and (min-width: 767px) {
   .button-list > li {
+    -ms-flex-direction: row;
     flex-direction: row;
     padding-left: 10px;
     padding-right: 10px; }
   .btn-social {
     font-size: 2.8em;
     padding: 10px;
+    display: -ms-flexbox;
     display: flex;
     height: 70px;
     width: 70px;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-pack: center;
     justify-content: center; } }

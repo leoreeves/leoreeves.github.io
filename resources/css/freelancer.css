@@ -158,13 +158,9 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
     transition: padding 0.3s; }
   .navbar-custom .navbar-brand {
     font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
     transition: all 0.3s; }
   .navbar-custom.affix {
     padding: 10px 0; }
@@ -265,9 +261,6 @@ section.success {
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 0;
-  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-  -moz-transition: top 0.3s ease,opacity 0.3s ease;
-  -ms-transition: top 0.3s ease,opacity 0.3s ease;
   transition: top 0.3s ease,opacity 0.3s ease; }
 
 .floating-label-form-group:not(:first-child) {
@@ -437,7 +430,6 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
-  -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
   min-height: 100%;
