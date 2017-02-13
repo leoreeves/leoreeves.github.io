@@ -2,6 +2,11 @@ $primary-blue: #283593;
 $primary-pink: #f06292;
 $secondary-blue: #3949ab;
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 /* Navbar */
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
   background-color: #fff;
