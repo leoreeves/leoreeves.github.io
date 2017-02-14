@@ -2,11 +2,6 @@ $primary-blue: #283593;
 $primary-pink: #f06292;
 $secondary-blue: #3949ab;
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 /* Navbar */
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
   background-color: #fff;
@@ -233,9 +228,15 @@ a:hover {
   }
 }
 
+@media screen and (min-width: 290px) {
+  .btn-social {
+    font-size: 1.9em;
+  }
+}
+
 @media screen and (min-width: 464px) {
   .btn-social {
-    font-size: 2em;
+    font-size: 2.2em;
     padding: 10px;
     display: flex;
     height: 60px;
@@ -252,7 +253,7 @@ a:hover {
     padding-right: 10px;
   }
   .btn-social {
-    font-size: 2.8em;
+    font-size: 2.7em;
     padding: 10px;
     display: flex;
     height: 70px;
