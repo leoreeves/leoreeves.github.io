@@ -23,6 +23,3 @@ document.addEventListener('scroll', () => {
     scrollTopBtn.classList.add('hidden-xs');
   }
 });
-
-// WOW JS Animation
-new WOW().init();
