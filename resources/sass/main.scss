@@ -4,9 +4,8 @@ $secondary-blue: #3949ab;
 
 /* Navbar */
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: $primary-pink;
+  background-color: $primary-blue;
+  border-color: white;
 }
 
 .navbar-custom {
