@@ -394,8 +394,10 @@
     <script>
       // 100vh mobile fix http://stackoverflow.com/a/40156488/2588066
       function calcVH() {
-        var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-        document.querySelector('header').setAttribute('style', `height:${vH}px;`);
+        if ($(window).width() < 600) {
+          var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+          document.querySelector('header').setAttribute('style', `height:${vH}px;`);
+        }
       }
       calcVH();
       window.addEventListener('onorientationchange', calcVH, true);
