@@ -583,7 +583,6 @@ a,a.active,a:active,a:focus,a:hover {
 }
 
 
-
 @media screen and (max-width: 767px) {
 
 	h1 {
@@ -602,6 +601,9 @@ a,a.active,a:active,a:focus,a:hover {
 	}
 	.subtitle {
 		font-size: 1.5em;
+	}
+	header {
+		height: 500px;
 	}
 }
 
