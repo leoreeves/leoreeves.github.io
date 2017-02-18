@@ -11,7 +11,7 @@ const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 
 // browserSync
-gulp.task('serve', ['minify-css', 'minify-html', 'babel'], () => {
+gulp.task('serve', ['minify-css', 'minify-html'], () => {
   browserSync.init({
     server: './',
   });
