@@ -2,6 +2,7 @@
 body {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
+	background-color: #0d1822;
 }
 p {
 	font-size: 20px;
@@ -56,6 +57,7 @@ header {
 	text-align: center;
 	background: #18BC9C;
 	color: white;
+	background-color: #0d1822;
 	background: url("./images/background.jpg") fixed;
 	background-size: cover;
 	height: 100vh;
@@ -500,6 +502,7 @@ h2 {
 	align-items: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+	background-color: white;
 }
 
 #about {
@@ -537,6 +540,7 @@ h2 {
 	align-items: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+	background-color: white;
 }
 .contact-message {
 	padding-bottom: 10px;

@@ -2,6 +2,12 @@ $primary-blue: #283593;
 $primary-pink: #f06292;
 $secondary-blue: #3949ab;
 
+body {
+  background-color: #0d1822;
+}
+
+
+
 /* Navbar */
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
   background-color: $primary-blue;
@@ -24,6 +30,7 @@ $secondary-blue: #3949ab;
 
 /* Header */
 header {
+  background-color: #0d1822;
   background: url('./images/background.jpg') fixed;
   background-size: cover;
   height: 100vh;
@@ -69,6 +76,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -110,6 +118,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 
 .contact-message {
