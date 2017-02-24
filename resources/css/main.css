@@ -60,6 +60,7 @@ header {
 	background-color: #0d1822;
 	background: url("./images/background.jpg") fixed;
 	background-size: cover;
+	padding-top: 50px;
 	height: 100vh;
 	display: -ms-flexbox;
 	display: flex;
