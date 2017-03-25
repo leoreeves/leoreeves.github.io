@@ -34,6 +34,7 @@ header {
   padding-top: 50px;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -72,9 +73,9 @@ h2 {
 #portfolio {
   min-height: 100vh;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   background-color: white;
 }
 
@@ -85,9 +86,9 @@ h2 {
 /* About */
 #about {
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 }
 
 .profile-pic {
@@ -114,9 +115,6 @@ h2 {
 /* Contact */
 #contact {
   min-height: 87vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: white;
 }
 
@@ -139,6 +137,8 @@ section.success {
 /* Footer */
 footer .footer-below {
   background-color: $primary-blue;
+  // background-color: #fff;
+  // color: #333;
 }
 
 /* Buttons */

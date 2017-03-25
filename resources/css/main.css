@@ -64,6 +64,8 @@ header {
 	height: 100vh;
 	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: center;
@@ -497,23 +499,11 @@ h2 {
 #portfolio {
 	min-height: 100vh;
 	width: 100%;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-align: center;
-	align-items: center;
-	-ms-flex-pack: center;
-	justify-content: center;
 	background-color: white;
 }
 
 #about {
 	min-height: 100vh;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-align: center;
-	align-items: center;
-	-ms-flex-pack: center;
-	justify-content: center;
 }
 .profile-pic {
 	display: inline;
@@ -535,12 +525,6 @@ h2 {
 
 #contact {
 	min-height: 87vh;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-align: center;
-	align-items: center;
-	-ms-flex-pack: center;
-	justify-content: center;
 	background-color: white;
 }
 .contact-message {
