@@ -511,7 +511,6 @@ h2 {
 }
 .greeting {
 	font-size: 2em;
-	font-weight: 700;
 }
 .skills {
 	word-spacing: 5px;
@@ -561,6 +560,9 @@ h2 {
 }
 #btn-submit {
 	width: 100px;
+}
+.btn-space {
+	margin-right: 15px;
 }
 
 a,a.active,a:active,a:focus,a:hover {
