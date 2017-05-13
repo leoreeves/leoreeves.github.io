@@ -1,5 +1,6 @@
 $primary-blue: #283593;
 $primary-pink: #f06292;
+$secondary-pink: #fbd2df;
 $secondary-blue: #3949ab;
 
 body {
@@ -17,13 +18,13 @@ body {
 }
 
 .navbar-custom .navbar-nav li a:hover {
-  color: $primary-pink;
+  color: $secondary-pink;
   outline: 0;
 }
 
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
   background: $primary-blue;
-  color: $primary-pink;
+  color: $secondary-pink;
 }
 
 /* Header */
@@ -275,4 +276,8 @@ a:hover {
     align-items: center;
     justify-content: center;
   }
+}
+
+input {
+  color: red;
 }
