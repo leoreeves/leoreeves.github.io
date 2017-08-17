@@ -74,9 +74,6 @@ h2 {
 #portfolio {
   min-height: 100vh;
   width: 100%;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
   background-color: white;
 }
 
@@ -87,19 +84,15 @@ h2 {
 /* About */
 #about {
   min-height: 100vh;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
 }
 
 .profile-pic {
   display: inline;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .greeting {
   font-size: 2em;
-  // font-weight: 700;
 }
 
 .skills {
@@ -138,8 +131,6 @@ section.success {
 /* Footer */
 footer .footer-below {
   background-color: $primary-blue;
-  // background-color: #fff;
-  // color: #333;
 }
 
 /* Buttons */
@@ -235,11 +226,20 @@ a:hover {
   .skills-heading {
     padding-top: 80px;
   }
+  #portfolio {
+    padding-top: 120px;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 2500px) { 
   .about-description {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #portfolio {
+    padding-top: 140px;
   }
 }
 

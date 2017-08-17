@@ -507,7 +507,7 @@ h2 {
 }
 .profile-pic {
 	display: inline;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 .greeting {
 	font-size: 2em;
@@ -605,6 +605,9 @@ a,a.active,a:active,a:focus,a:hover {
 	.skills-heading {
 		padding-top: 80px;
 	}
+	#portfolio {
+		padding-top: 120px;
+	}
 }
 
 
@@ -612,6 +615,14 @@ a,a.active,a:active,a:focus,a:hover {
 
 	.about-description {
 		text-align: center;
+	}
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+	#portfolio {
+		padding-top: 140px;
 	}
 }
 
