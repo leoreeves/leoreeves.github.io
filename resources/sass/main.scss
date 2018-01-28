@@ -111,6 +111,42 @@ h2 {
   padding: 10px;
 }
 
+.skills ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  font-size: 14px;
+}
+
+.skills .skill {
+  display: block;
+  height: 34px;
+  padding: 5px 20px;
+  line-height: 20px;
+  font-size: 20px;
+  color: #202121;
+  border: 2px solid #23dc6d;
+  background-color: #23dc6d;
+  border-radius: 36px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+
+
+.skills .skill:hover {
+  text-decoration: none;
+}
+
 #about-offset {
   position:absolute;
   top: -50px;
@@ -217,6 +253,11 @@ a:hover {
   color: #333;
 }
 
+.portfolio-modal .close-modal .lr,
+.portfolio-modal .close-modal .lr .rl  {
+  height: 60px;
+}
+
 /* Responsive queries */
 @media screen and (max-width: 767px) {
 	h1 {
@@ -242,7 +283,7 @@ a:hover {
 
 @media screen and (min-width: 1200px) {
   .skills-heading {
-    padding-top: 80px;
+    padding-bottom: 10px;
   }
   .skills {
     padding: 10px 350px;
