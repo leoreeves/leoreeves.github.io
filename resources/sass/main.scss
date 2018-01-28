@@ -5,6 +5,7 @@ $secondary-blue: #3949ab;
 
 body {
   background-color: #0d1822;
+  color: #fff;
 }
 
 /* Navbar */
@@ -81,6 +82,10 @@ h2 {
   background: rgba(92, 107, 192, .9);
 }
 
+.portfolio-header {
+  color: #333;
+}
+
 /* About */
 #about {
   min-height: 100vh;
@@ -102,7 +107,7 @@ h2 {
 }
 
 #about-offset {
-  position:absolute; 
+  position:absolute;
   top: -50px;
 }
 
@@ -110,6 +115,10 @@ h2 {
 #contact {
   min-height: 87vh;
   background-color: white;
+}
+
+.contact {
+  color: #333;
 }
 
 .contact-message {
@@ -186,10 +195,10 @@ footer .footer-below {
 }
 
 /* Links */
-a, 
-a.active, 
-a:active, 
-a:focus, 
+a,
+a.active,
+a:active,
+a:focus,
 a:hover {
   color: $primary-pink;
 }
@@ -206,7 +215,7 @@ a:hover {
 	}
 	.subtitle {
 		font-size: 2.2em;
-	}
+  }
 }
 
 @media screen and (max-width: 464px) {
@@ -226,12 +235,15 @@ a:hover {
   .skills-heading {
     padding-top: 80px;
   }
+  .skills {
+    padding: 10px 350px;
+  }
   #portfolio {
     padding-top: 120px;
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 2500px) { 
+@media screen and (min-width: 992px) and (max-width: 2500px) {
   .about-description {
     text-align: center;
   }
