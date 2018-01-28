@@ -79,7 +79,12 @@ h2 {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(92, 107, 192, .9);
+  background: rgba(92, 107, 192, .9) !important;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
 }
 
 .portfolio-header {
@@ -206,6 +211,10 @@ a:hover {
 /* Modals */
 .item-details {
   font-size: 1.3em;
+}
+
+.modal-body {
+  color: #333;
 }
 
 /* Responsive queries */
