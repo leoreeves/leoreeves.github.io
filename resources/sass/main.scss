@@ -134,8 +134,8 @@ h2 {
   padding: 5px 20px;
   font-size: 20px;
   color: #202121;
-  border: 2px solid #00e676;
-  background-color: #00e676;
+  border: 2px solid darken(#00e676, 5%);
+  background-color: darken(#00e676, 5%);
   border-radius: 36px;
   overflow: hidden;
   -webkit-transition: all 0.3s ease-in-out;
@@ -146,6 +146,10 @@ h2 {
 
 .skills .skill:hover {
   text-decoration: none;
+}
+
+.skills-heading {
+  padding-bottom: 10px;
 }
 
 #about-offset {
@@ -283,9 +287,6 @@ a:hover {
 }
 
 @media screen and (min-width: 1200px) {
-  .skills-heading {
-    padding-bottom: 10px;
-  }
   .skills {
     padding: 10px 350px;
   }
