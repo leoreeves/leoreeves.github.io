@@ -109,6 +109,7 @@ h2 {
   word-spacing: 5px;
   font-size: 1.5em;
   padding: 10px;
+  margin: 0 0 10px;
 }
 
 .skills ul {
@@ -117,13 +118,14 @@ h2 {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skills li {
   position: relative;
   display: inline-block;
   margin: 0 10px 10px 0;
-  font-size: 14px;
+  font-size: 1.1em;
 }
 
 .skills .skill {
@@ -133,15 +135,17 @@ h2 {
   height: 34px;
   padding: 5px 20px;
   font-size: 20px;
-  color: #202121;
-  border: 2px solid darken(#00e676, 5%);
-  background-color: darken(#00e676, 5%);
+  background-color: #283592;
   border-radius: 36px;
   overflow: hidden;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   color: #fff;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+  &:hover {
+    filter: blur(0);
+  }
 }
 
 .skills .skill:hover {
@@ -238,6 +242,10 @@ footer .footer-below {
 
 .btn-space {
   margin-right: 15px;
+}
+
+.scroll-top .btn {
+  line-height: 33px;
 }
 
 /* Links */
