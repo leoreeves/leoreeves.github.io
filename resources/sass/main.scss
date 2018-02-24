@@ -142,10 +142,6 @@ h2 {
   transition: all 0.3s ease-in-out;
   color: #fff;
   box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-
-  &:hover {
-    filter: blur(0);
-  }
 }
 
 .skills .skill:hover {
@@ -196,20 +192,32 @@ footer .footer-below {
 .btn {
   box-shadow: 0 4px 6px rgba(50,50,93,.11),
               0 1px 3px rgba(0,0,0,.08);
+  transition: all .15s ease;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
 }
 
 .btn:hover {
   transform: translateY(-1px);
 }
 
-.btn-success {
+.btn-success,
+.btn-close {
+  color: #fff;
   background-color: $secondary-blue;
   border-color: $secondary-blue;
+
+  &:focus,
+  &:hover {
+    color: #fff;
+  }
 }
 
 .btn-success.disabled, .btn-success:active, .btn-success:focus, .btn-success:hover, .btn-success:target {
-  background-color: $primary-blue !important;
-  border-color: $primary-blue !important;
+  background-color: lighten($secondary-blue, 5%) !important;
+  border-color: lighten($secondary-blue, 5%)  !important;
 }
 
 .btn-social:focus, .btn-social:hover {
@@ -245,12 +253,12 @@ footer .footer-below {
   background-color: #E53935 !important;
 }
 
-#btn-submit {
-  width: 100px;
+.btn-skills {
+  margin: 12px;
 }
 
-.btn-space {
-  margin-right: 15px;
+#btn-submit {
+  width: 100px;
 }
 
 .scroll-top .btn {
