@@ -193,6 +193,15 @@ footer .footer-below {
 }
 
 /* Buttons */
+.btn {
+  box-shadow: 0 4px 6px rgba(50,50,93,.11),
+              0 1px 3px rgba(0,0,0,.08);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
 .btn-success {
   background-color: $secondary-blue;
   border-color: $secondary-blue;
@@ -289,8 +298,8 @@ a:hover {
 		font-size: 1.5em;
 	}
   header {
-    height: 300px;
-    padding-bottom: 15px;
+    // height: 300px;
+    padding-bottom: 80px;
   }
 }
 
