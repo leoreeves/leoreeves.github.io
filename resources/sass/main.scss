@@ -186,6 +186,10 @@ section.success {
 /* Footer */
 footer .footer-below {
   background-color: $primary-blue;
+
+  .footer-text {
+    font-size: 1.2em;
+  }
 }
 
 /* Buttons */
