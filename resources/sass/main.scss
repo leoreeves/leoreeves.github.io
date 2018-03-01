@@ -4,7 +4,6 @@ $secondary-pink: #fbd2df;
 $secondary-blue: #3949ab;
 
 body {
-  background-color: #0d1822;
   color: #fff;
 }
 
@@ -106,6 +105,10 @@ h2 {
 
 .greeting {
   font-size: 2em;
+}
+
+.fa-handshake-o {
+  margin-right: 4px;
 }
 
 .skills {
