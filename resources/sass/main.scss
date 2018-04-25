@@ -193,6 +193,8 @@ footer .footer-below {
 
   .footer-text {
     font-size: 1.2em;
+    position: relative;
+    top: 8px;
   }
 }
 
@@ -282,6 +284,8 @@ footer .footer-below {
 
 .scroll-top .btn {
   line-height: 33px;
+  bottom: 1.5%;
+  right: 1.5%;
 }
 
 .light-image-border {
