@@ -26,41 +26,46 @@ gulp.task('serve', ['minify-css', 'minify-html'], () => {
 
 // Minify html
 gulp.task('minify-html', () => gulp.src('resources/html/*.html')
-    .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
-    .pipe(gulp.dest('./')));
+  .pipe(htmlmin({
+    collapseWhitespace: true,
+    removeComments: true
+  }))
+  .pipe(gulp.dest('./')));
 
 // SCSS to CSS with autoprefixer
 gulp.task('sass', () => gulp.src(['resources/sass/freelancer.scss', 'resources/sass/main.scss'])
-    .pipe(sass().on('error', sass.logError))
-    .pipe(concat('main.css'))
-    .pipe(purge())
-    .pipe(autoprefixer({
-      browsers: ['last 2 versions'],
-      cascade: false,
-    }))
-    .pipe(gulp.dest('resources/css')));
+  .pipe(sass().on('error', sass.logError))
+  .pipe(concat('main.css'))
+  .pipe(purge())
+  .pipe(autoprefixer({
+    browsers: ['last 2 versions'],
+    cascade: false,
+  }))
+  .pipe(gulp.dest('resources/css')));
 
 // Minify CSS with autoprefixer
 gulp.task('minify-css', ['sass'], () => gulp.src(['resources/css/*.css', '!resources/css/*.min.css'])
-    .pipe(purge())
-    .pipe(autoprefixer({
-      browsers: ['last 2 versions'],
-      cascade: false,
-    }))
-    .pipe(cleanCSS({ compatibility: 'ie8' }))
-    .pipe(rename({
-      suffix: '.min',
-    }))
-    .pipe(gulp.dest('resources/css')));
+  .pipe(purge())
+  .pipe(autoprefixer({
+    browsers: ['last 2 versions'],
+    cascade: false,
+  }))
+  .pipe(cleanCSS({
+    compatibility: 'ie8'
+  }))
+  .pipe(rename({
+    suffix: '.min',
+  }))
+  .pipe(gulp.dest('resources/css')));
 
 // Compile and minify JS
 gulp.task('babel', () => gulp.src('resources/js/*.js')
-        .pipe(babel({
-          presets: ['es2015'],
-        }))
-        .pipe(concat('main.js'))
-        .pipe(uglify())
-        .pipe(rename({
-          suffix: '.min',
-        }))
-        .pipe(gulp.dest('resources/js')));
+  .pipe(babel({
+    presets: ['es2015'],
+  }))
+  .pipe(concat('main.js'))
+  .pipe(uglify())
+  .pipe(rename({
+    suffix: '.min',
+  }))
+  .pipe(gulp.dest('resources/js')));
