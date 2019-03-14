@@ -94,8 +94,8 @@ h2 {
 }
 
 /* About */
-#about {
-  min-height: 100vh;
+.about {
+  background: #5c6bc0;
 }
 
 .skills {
@@ -145,7 +145,6 @@ h2 {
 
 /* Contact */
 #contact {
-  min-height: 87vh;
   background-color: white;
 }
 
@@ -155,10 +154,6 @@ h2 {
 
 .contact-message {
   padding-bottom: 10px;
-}
-
-section.success {
-  background: #5c6bc0;
 }
 
 .floating-label-form-group-with-value label, .floating-label-form-group-with-focus label {
