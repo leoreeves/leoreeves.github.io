@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './portfolio.module.scss'
 
-const Header = (props) => (
+const Portfolio = (props) => (
   <div className="">
     <div className="">
       <div style={{ height: 400, width: 550, background: 'lightgrey' }}></div>
@@ -23,4 +23,4 @@ const Header = (props) => (
   </div>
 )
 
-export default Header;
+export default Portfolio;

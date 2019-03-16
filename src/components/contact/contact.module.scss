@@ -1,0 +1,30 @@
+@import '../../styles/main.scss';
+
+.contactContainer {
+  margin: 80px 0 40px 0;
+  width: 50%;
+
+  .contactRow {
+    .contactInput {
+      padding: 10px;
+      font-family: $open-sans;
+      color: $color-text-light;
+      width: calc(100% - 20px);
+      margin-bottom: 20px;
+    }
+
+    .contactMessageTextArea {
+      padding: 10px;
+      min-height: 150px;
+      margin-bottom: 20px;
+      width: calc(100% - 20px);
+      font-family: $open-sans;
+      color: $color-text-light;
+      resize: vertical;
+    }
+  }
+
+  @media #{$small-device-query} {
+    width: 100%;
+  }
+}
