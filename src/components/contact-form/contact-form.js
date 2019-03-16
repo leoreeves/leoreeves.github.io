@@ -1,10 +1,10 @@
 import React from 'react';
 
-import styles from './contact.module.scss';
+import styles from './contact-form.module.scss';
 import Button from '../button/button';
 
-const Contact = () => (
-  <div className={styles.contactContainer}>
+const ContactForm = () => (
+  <form className={styles.contactContainer}>
     <div className={styles.contactRow}>
       <label for="name">
         <h3>Name</h3>
@@ -35,7 +35,7 @@ const Contact = () => (
       />
     </div>
     <Button buttonText={'Send Message'} />
-  </div>
+  </form>
 )
 
-export default Contact;
+export default ContactForm;
