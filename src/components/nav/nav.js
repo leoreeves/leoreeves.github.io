@@ -3,7 +3,7 @@ import React from 'react';
 
 import styles from './nav.module.scss';
 
-const Nav = (props) => (
+const Nav = () => (
   <nav className={styles.nav}>
     <div className={styles.navContainer}>
       <Link className={styles.navLink} to="/">
