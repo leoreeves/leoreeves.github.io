@@ -41,4 +41,10 @@
       font-size: 1.05em;
     }
   }
+
+  @media #{$extra-small-device-query} {
+    .navLink {
+      font-size: 0.85em;
+    }
+  }
 }
