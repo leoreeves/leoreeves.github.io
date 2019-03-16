@@ -10,7 +10,7 @@ const PortfolioPage = () => (
   <Layout>
     <SEO title="About" keywords={['Leo Reeves', 'portfolio', 'about']} />
     <Header
-      primaryHeading={'Portfolio.'}
+      primaryHeading={'Portfolio'}
       secondaryHeading={'Featured Work'}
     />
   </Layout>

@@ -6,7 +6,10 @@ import styles from './nav.module.scss';
 const Nav = () => (
   <nav className={styles.nav}>
     <div className={styles.navContainer}>
-      <Link className={styles.navLink} to="/portfolio">
+      <Link className={styles.navLink} to="/">
+        Leo Reeves
+      </Link>
+      <Link style={{ marginLeft: `auto` }} className={styles.navLink} to="/portfolio">
         Portfolio
       </Link>
       <Link className={styles.navLink} to="/about">
