@@ -1,7 +1,9 @@
+@import '../../styles/main.scss';
+
 html,
 body,
 #___gatsby,
 div[role="group"][tabindex] {
-  background-color: #1C1A27;
+  background-color: $color-background;
   height: 100%;
 }

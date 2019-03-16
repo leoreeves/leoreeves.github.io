@@ -3,7 +3,7 @@
 .header {
   .primaryHeading,
   .secondaryHeading {
-    color: #fff;
+    color: $color-text;
     font-family: $hind;
     margin: 0;
   }
@@ -21,7 +21,7 @@
     margin: 40px 0;
     width: 40px;
     height: 2px;
-    background: #fff;
+    background: $color-text;
   }
 
   @media #{$small-device-query} {
