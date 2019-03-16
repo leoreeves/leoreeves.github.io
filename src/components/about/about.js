@@ -14,13 +14,22 @@ const About = () => (
     <div className={styles.aboutRow}>
       <h3 className={styles.aboutHeading}>Experience</h3>
       <div className={styles.aboutContent}>
-        <h4 className={styles.experienceHeading}>Lavanda</h4>
+        <h4 className={styles.experienceHeading}>
+          <span>Lavanda</span>
+          <span>Sept. 2017 – Present</span>
+        </h4>
         <span>Front-end Engineer</span>
         <hr/>
-        <h4 className={styles.experienceHeading}>Rapid Tender</h4>
+        <h4 className={styles.experienceHeading}>
+          <span>Rapid Tender</span>
+          <span>Apr. 2017 – Aug. 2017</span>
+        </h4>
         <span>Junior Software Developer</span>
         <hr/>
-        <h4 className={styles.experienceHeading}>Connells</h4>
+        <h4 className={styles.experienceHeading}>
+          <span>Connells</span>
+          <span>Dec. 2015 – Mar. 2017</span>
+        </h4>
         <span>QC & Mortgage Consultant</span>
         <hr/>
       </div>

@@ -20,6 +20,7 @@
   .aboutHeading {
     margin: 0;
     margin-bottom: 10px;
+    font-family: $hind;
   }
 
   .aboutContent {
@@ -28,6 +29,9 @@
   }
 
   .experienceHeading {
+    display: flex;
+    justify-content: space-between;
+    font-family: $hind;
     margin-bottom: 0;
 
     &:first-child {
@@ -37,6 +41,13 @@
 
   .developmentHeading {
     margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  @media #{$medium-device-query} {
+    .experienceHeading {
+      flex-flow: column;
+    }
   }
 
   @media #{$small-device-query} {
@@ -49,6 +60,10 @@
     .aboutHeading,
     .aboutContent {
       width: 100%;
+    }
+
+    .experienceHeading {
+      flex-flow: column;
     }
   }
 }
