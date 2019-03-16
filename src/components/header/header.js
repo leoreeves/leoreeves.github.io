@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Button from '../button/button';
-import styles from './header.module.css'
+import styles from './header.module.scss'
 
 const Header = (props) => (
   <header>

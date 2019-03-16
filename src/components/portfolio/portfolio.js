@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './portfolio.module.css'
+import styles from './portfolio.module.scss'
 
 const Header = (props) => (
   <div className="">

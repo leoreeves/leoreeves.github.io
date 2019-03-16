@@ -6,8 +6,8 @@ import 'normalize.css';
 import Nav from '../nav/nav';
 import Footer from '../footer/footer';
 
-import styles from './layout.module.css';
-import './layout.css';
+import styles from './layout.module.scss';
+import './layout.scss';
 
 const Layout = ({ children }) => (
   <StaticQuery

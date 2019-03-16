@@ -1,0 +1,25 @@
+@import '../../styles/main.scss';
+
+.defaultButton {
+  border: 0;
+  outline: 0;
+  font-family: $hind;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: $color-green;
+
+  &:active {
+    background-color: $color-green;
+  }
+
+  &:hover {
+    background-color: $color-green-highlighted;
+  }
+
+  @media #{$small-device-query} {
+    font-size: 1.05em;
+  }
+}

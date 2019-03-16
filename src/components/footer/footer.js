@@ -1,10 +1,10 @@
 import { Link } from 'gatsby';
 import React from 'react';
 
-import styles from './footer.module.css'
+import styles from './footer.module.scss';
 
 const Footer = () => (
-  <footer>
+  <footer className={styles.footer}>
     <div className={styles.navContainer}>
       <Link className={styles.navLink} to="/">
         { `</> Leo Reeves` }

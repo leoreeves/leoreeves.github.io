@@ -1,0 +1,36 @@
+@import '../../styles/main.scss';
+
+header {
+  .primaryHeading,
+  .secondaryHeading {
+    color: #fff;
+    font-family: $hind;
+    margin: 0;
+  }
+
+  .primaryHeading {
+    font-size: 4em;
+  }
+
+  .secondaryHeading {
+    font-size: 3em;
+  }
+
+  .headingRow {
+    padding: 0 40px;
+    margin: 40px 0;
+    width: 40px;
+    height: 2px;
+    background: #fff;
+  }
+
+  @media #{$small-device-query} {
+    .primaryHeading {
+      font-size: 3em;
+    }
+
+    .secondaryHeading {
+      font-size: 2em;
+    }
+  }
+}
