@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
 
-import ContactForm from '../components/contact/contact-form';
+import ContactForm from '../components/contact-form/contact-form';
 import Header from '../components/header/header';
 
 const ContactPage = () => (

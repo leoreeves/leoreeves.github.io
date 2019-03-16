@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from '../button/button';
+import RouteButton from '../buttons/route-button';
 import styles from './header.module.scss'
 
 const Header = (props) => (
@@ -10,7 +10,7 @@ const Header = (props) => (
     <hr className={styles.headingRow} />
     {
       props.buttonText &&
-      <Button
+      <RouteButton
         buttonText={props.buttonText}
         buttonRoute={props.buttonRoute}
       />

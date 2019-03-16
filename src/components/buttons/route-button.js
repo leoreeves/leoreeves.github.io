@@ -4,10 +4,12 @@ import { navigate } from 'gatsby';
 import styles from './button.module.scss';
 
 function handleClick(route) {
-  navigate(route);
+  if (route && route.match(/\/[a-z]+/gm)) {
+    navigate(route);
+  }
 }
 
-const Button = (props) => (
+const RouteButton = (props) => (
   <button
     className={styles.defaultButton}
     onClick={() => handleClick(props.buttonRoute)}
@@ -16,4 +18,4 @@ const Button = (props) => (
   </button>
 )
 
-export default Button;
+export default RouteButton;

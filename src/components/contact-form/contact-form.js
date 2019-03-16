@@ -1,40 +1,53 @@
 import React from 'react';
 
 import styles from './contact-form.module.scss';
-import Button from '../button/button';
+import RouteButton from '../buttons/route-button';
+
+const formSpreeUrl = '//formspree.io/' + 'leo' + 'j' + 'reeves' + '+' + 'portfolio' + '@' + 'gmail' + '.' + 'com';
 
 const ContactForm = () => (
-  <form className={styles.contactContainer}>
+  <form
+    className={styles.contactContainer}
+    action={formSpreeUrl}
+    method="POST"
+  >
     <div className={styles.contactRow}>
-      <label for="name">
+      <label htmlFor="name">
         <h3>Name</h3>
       </label>
       <input
         className={styles.contactInput}
         name="name"
-        placeholder="Enter your name">
+        placeholder="Enter your name"
+        required
+      >
       </input>
-      <label for="email">
+      <label htmlFor="_replyto">
         <h3>Email</h3>
       </label>
       <input
         className={styles.contactInput}
-        name="email"
+        name="_replyto"
         type="email"
-        placeholder="Enter your email">
+        placeholder="Enter your email"
+        required
+      >
       </input>
     </div>
     <div className={styles.contactRow}>
-      <label for="message">
+      <label htmlFor="message">
         <h3>Message</h3>
       </label>
       <textarea
         className={styles.contactMessageTextArea}
         name="message"
         placeholder="Enter your message"
+        required
       />
     </div>
-    <Button buttonText={'Send Message'} />
+    <input type="text" name="_gotcha" style={{ display: 'none' }} title="please ignore" />
+    <input type="hidden" name="_next" value="/contact" />
+    <RouteButton buttonText={'Send Message'}/>
   </form>
 )
 
