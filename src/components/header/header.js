@@ -4,7 +4,7 @@ import Button from '../button/button';
 import styles from './header.module.scss'
 
 const Header = (props) => (
-  <header>
+  <header className={styles.header}>
     <h1 className={styles.primaryHeading}>{props.primaryHeading}</h1>
     <h2 className={styles.secondaryHeading}>{props.secondaryHeading}</h2>
     <hr className={styles.headingRow} />
