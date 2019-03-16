@@ -3,16 +3,20 @@ import { navigate } from 'gatsby';
 
 import styles from './button.module.scss';
 
-function handleClick(route) {
-  if (route && route.match(/\/[a-z]+/gm)) {
-    navigate(route);
+function navigateToRoute(route, external) {
+  if (route) {
+    if (external) {
+      window.open(route, '_blank');
+    } else {
+      navigate(route);
+    }
   }
 }
 
 const RouteButton = (props) => (
   <button
     className={styles.defaultButton}
-    onClick={() => handleClick(props.buttonRoute)}
+    onClick={() => navigateToRoute(props.buttonRoute, props.external)}
   >
     { props.buttonText }
   </button>

@@ -13,6 +13,7 @@ const Header = (props) => (
       <RouteButton
         buttonText={props.buttonText}
         buttonRoute={props.buttonRoute}
+        external={props.external}
       />
     }
   </header>
