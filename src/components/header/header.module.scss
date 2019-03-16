@@ -1,6 +1,8 @@
 @import '../../styles/main.scss';
 
 .header {
+  width: 50%;
+
   .primaryHeading,
   .secondaryHeading {
     font-family: $hind;
@@ -24,6 +26,8 @@
   }
 
   @media #{$small-device-query} {
+    width: 100%;
+
     .primaryHeading {
       font-size: 2.5em;
     }
