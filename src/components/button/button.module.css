@@ -1,0 +1,25 @@
+.defaultButton {
+  border: 0;
+  outline: 0;
+  font-family: 'Hind', 'Corbel', 'Segoe UI', 'Avenir', sans‑serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #00AC7E;
+}
+
+.defaultButton:hover {
+  background-color: #00c18d;
+}
+
+.defaultButton:active {
+  background-color: #00AC7E;
+}
+
+@media screen and (max-width: 768px) {
+  .defaultButton {
+    font-size: 1.05em;
+  }
+}

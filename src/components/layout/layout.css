@@ -1,0 +1,7 @@
+html,
+body,
+#___gatsby,
+div[role="group"][tabindex] {
+  background-color: #1C1A27;
+  height: 100%;
+}
