@@ -3,7 +3,7 @@
 .nav {
   display: flex;
   align-items: center;
-  height: 80px;
+  min-height: 80px;
 
   .navContainer {
     display: flex;

@@ -1,0 +1,54 @@
+@import '../../styles/main.scss';
+
+.aboutContainer {
+  margin: 80px 0 40px 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+
+  .aboutRow {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 40px;
+  }
+
+  .aboutHeading,
+  .aboutContent {
+    width: 50%;
+  }
+
+  .aboutHeading {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .aboutContent {
+    font-family: $open-sans;
+  }
+
+  .experienceHeading {
+    margin-bottom: 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .developmentHeading {
+    margin-top: 0;
+  }
+
+  @media #{$small-device-query} {
+    margin: 60px 0 20px 0;
+
+    .aboutRow {
+      flex-wrap: wrap;
+    }
+
+    .aboutHeading,
+    .aboutContent {
+      width: 100%;
+    }
+  }
+}
