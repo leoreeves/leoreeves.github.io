@@ -4,20 +4,31 @@ import { navigate } from 'gatsby';
 import styles from './portfolio-item.module.scss'
 import Image from '../../image';
 
-function openPortfolioItem(portfolioItem) {
-  navigate(portfolioItem);
+function openPortfolioItem(state) {
+  navigate(
+    '/portfolio-detail',
+    { state },
+  );
 }
 
 const PortfolioItem = (props) => (
   <div className={styles.portfolioItem}>
     <div
         className={styles.imageContainer}
-        onClick={() => openPortfolioItem(props.route)}
+        onClick={() => openPortfolioItem(
+          {
+            primaryHeading: props.primaryHeading,
+            secondaryHeading: props.secondaryHeading,
+            imageFileName: props.imageFileName,
+            buttonRoute: props.buttonRoute,
+            buttonRouteSecondary: props.buttonRouteSecondary,
+          }
+        )}
       >
-      <Image filename={props.imageFilename} />
+      <Image filename={props.imageFileName} />
       <div className={styles.imageOverlay}></div>
     </div>
-    <h3>{props.heading}</h3>
+    <h3>{props.primaryHeading}</h3>
     <p>{props.description}
       {
         props.link &&
