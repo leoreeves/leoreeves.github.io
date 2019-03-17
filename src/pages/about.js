@@ -13,7 +13,7 @@ const AboutPage = () => (
       primaryHeading={'A little about me.'}
       secondaryHeading={'Front-end Developer'}
       buttonText={'Download CV'}
-      buttonRoute={'https://drive.google.com/file/d/1pYHHe03v7pZIm3RTyyBdC9wEz8xsM1D2/view'}
+      buttonRoute={'https://drive.google.com/file/d/1qkwftwFC4vzaYQ00fO0hA7lnmyIQcFqC/view'}
       buttonExternal={true}
     />
     <About />
