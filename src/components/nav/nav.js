@@ -6,16 +6,32 @@ import styles from './nav.module.scss';
 const Nav = () => (
   <nav className={styles.nav}>
     <div className={styles.navContainer}>
-      <Link className={styles.navLink} to="/">
+      <Link
+        className={styles.navLink}
+        to="/"
+      >
         Leo Reeves
       </Link>
-      <Link style={{ marginLeft: `auto` }} className={styles.navLink} to="/portfolio">
+      <Link
+        style={{ marginLeft: 'auto' }}
+        activeStyle={{ borderBottomColor: '#00AC7E' }}
+        className={styles.navLink}
+        to="/portfolio"
+      >
         Portfolio
       </Link>
-      <Link className={styles.navLink} to="/about">
+      <Link
+        activeStyle={{ borderBottomColor: '#00AC7E' }}
+        className={styles.navLink}
+        to="/about"
+      >
         About
       </Link>
-      <Link className={styles.navLink} to="/contact">
+      <Link
+        activeStyle={{ borderBottomColor: '#00AC7E' }}
+        className={styles.navLink}
+        to="/contact"
+      >
         Contact
       </Link>
     </div>
