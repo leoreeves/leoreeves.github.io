@@ -28,12 +28,12 @@ const PortfolioContent = () => (
         buttonRouteSecondary={`${gitHubRepoUrl}quotes-on-design-generator`}
       />
       <PortfolioItem
-        imageFileName={'simple-clock.png'}
-        primaryHeading={'Simple clock'}
-        secondaryHeading={'HTML, CSS, Vue.js'}
-        description={'Simple clock with switchable digital and analogue face'}
-        buttonRoute={`${gitHubPageProjectsUrl}simple-clock`}
-        buttonRouteSecondary={`${gitHubRepoUrl}simple-clock`}
+        imageFileName={'wikipedia-search.png'}
+        primaryHeading={'Wikipedia Search'}
+        secondaryHeading={'HTML, CSS, React'}
+        description={'A Wikipedia search viewer'}
+        buttonRoute={'https://react-wikipedia-search.netlify.com/'}
+        buttonRouteSecondary={`${gitHubRepoUrl}react-wikipedia-search`}
       />
       <PortfolioItem
         imageFileName={'uk-vat-calculator.png'}
@@ -44,12 +44,12 @@ const PortfolioContent = () => (
         buttonRouteSecondary={`${gitHubRepoUrl}uk-vat-calculator`}
       />
       <PortfolioItem
-        imageFileName={'hex-colour-generator.jpg'}
-        primaryHeading={'Hex Colour Generator'}
-        secondaryHeading={'HTML, CSS, JavaScript'}
-        description={'Generate random hex colours'}
-        buttonRoute={`${gitHubPageProjectsUrl}hex-colour-generator`}
-        buttonRouteSecondary={`${gitHubRepoUrl}hex-colour-generator`}
+        imageFileName={'ionic-contacts-manager.png'}
+        primaryHeading={'Contacts Manager'}
+        secondaryHeading={'HTML, Sass, Ionic'}
+        description={'Allows users to create, edit and view contacts'}
+        buttonRoute={`https://ionic-contacts-manager-app.herokuapp.com/`}
+        buttonRouteSecondary={'https://github.com/leoreeves/projects/tree/master/ionic-contacts-manager'}
       />
       <PortfolioItem
         imageFileName={'geolocation-weather-app.png'}
