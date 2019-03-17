@@ -3,12 +3,15 @@ import React from 'react';
 import styles from './contact-form.module.scss';
 import RouteButton from '../buttons/route-button';
 
-const formSpreeUrl = '//formspree.io/' + 'leo' + 'j' + 'reeves' + '+' + 'portfolio' + '@' + 'gmail' + '.' + 'com';
+const formspreeUrl = '//formspree.io/';
+const emailLabel = 'leojreeves+portfolio';
+const emailProvider = '@gmail.com';
+const formUrl = `${formspreeUrl}${emailLabel}${emailProvider}`;
 
 const ContactForm = () => (
   <form
     className={styles.contactContainer}
-    action={formSpreeUrl}
+    action={formUrl}
     method="POST"
   >
     <div className={styles.contactRow}>
