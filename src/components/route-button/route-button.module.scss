@@ -9,6 +9,10 @@
   padding: 10px 20px;
   cursor: pointer;
   color: $color-text;
+
+  @media #{$small-device-query} {
+    font-size: 1.05em;
+  }
 }
 
 .primary {
@@ -20,10 +24,6 @@
 
   &:hover {
     background-color: $color-green-highlighted;
-  }
-
-  @media #{$small-device-query} {
-    font-size: 1.05em;
   }
 }
 
