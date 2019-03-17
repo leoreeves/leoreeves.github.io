@@ -15,7 +15,7 @@ function navigateToRoute(route, external) {
 
 const RouteButton = (props) => (
   <button
-    className={`${styles.routeButton} ${props.primary ? styles.primary : styles.secondary}`}
+    className={`${styles.routeButton} ${ props.secondary ? styles.secondary : styles.primary}`}
     onClick={() => navigateToRoute(props.buttonRoute, props.buttonExternal)}
   >
     { props.buttonText }
