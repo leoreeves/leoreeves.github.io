@@ -13,20 +13,40 @@ import Img from 'gatsby-image';
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const Image = () => (
+const Image = (props) => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "elliott-smith-tribute-page.jpg" }) {
-          childImageSharp {
-            fluid(maxWidth: 550, maxHeight: 400, quality: 100) {
-              ...GatsbyImageSharpFluid
+        images: allFile {
+          edges {
+            node {
+              relativePath
+              name
+              childImageSharp {
+                sizes(maxWidth: 650, quality: 100) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
             }
           }
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+
+    render={(data) => {
+      const image = data.images.edges.find(n => {
+        return n.node.relativePath.includes(props.filename);
+      });
+      if (!image) { return null; }
+
+      const imageSizes = image.node.childImageSharp.sizes;
+      return (
+        <Img
+          alt={props.alt}
+          sizes={imageSizes}
+        />
+      )
+    }}
   />
 )
 export default Image;
