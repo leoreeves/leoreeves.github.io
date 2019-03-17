@@ -1,0 +1,36 @@
+@import '../../../styles/main.scss';
+
+.portfolioItem {
+  margin-bottom: 40px;
+  width: 45%;
+
+  .imageContainer {
+    position: relative;
+    cursor: pointer;
+
+    .imageOverlay {
+      position: absolute;
+      transition: .4s ease;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      opacity: 0;
+    }
+
+    &:hover {
+      .imageOverlay {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  @media #{$small-device-query} {
+    width: 100%;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
