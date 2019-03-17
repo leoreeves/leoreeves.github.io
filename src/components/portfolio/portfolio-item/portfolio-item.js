@@ -6,7 +6,7 @@ import Image from '../../image';
 
 function openPortfolioItem(state) {
   navigate(
-    '/portfolio-detail',
+    '/portfolio-detail/',
     { state },
   );
 }

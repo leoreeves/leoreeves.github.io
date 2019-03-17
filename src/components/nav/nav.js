@@ -16,21 +16,21 @@ const Nav = () => (
         style={{ marginLeft: 'auto' }}
         activeStyle={{ borderBottomColor: '#00AC7E' }}
         className={styles.navLink}
-        to="/portfolio"
+        to="/portfolio/"
       >
         Portfolio
       </Link>
       <Link
         activeStyle={{ borderBottomColor: '#00AC7E' }}
         className={styles.navLink}
-        to="/about"
+        to="/about/"
       >
         About
       </Link>
       <Link
         activeStyle={{ borderBottomColor: '#00AC7E' }}
         className={styles.navLink}
-        to="/contact"
+        to="/contact/"
       >
         Contact
       </Link>

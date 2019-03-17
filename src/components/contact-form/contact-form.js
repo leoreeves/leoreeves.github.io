@@ -49,7 +49,7 @@ const ContactForm = () => (
       />
     </div>
     <input type="text" name="_gotcha" style={{ display: 'none' }} title="please ignore" />
-    <input type="hidden" name="_next" value="/contact-success" />
+    <input type="hidden" name="_next" value="/contact-success/" />
     <RouteButton buttonText={'Send Message'}/>
   </form>
 )

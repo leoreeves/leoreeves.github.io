@@ -11,7 +11,7 @@ const IndexPage = () => (
       primaryHeading={'Leo Reeves'}
       secondaryHeading={'Front-end Developer'}
       buttonText={'Contact Me'}
-      buttonRoute={'/contact'}
+      buttonRoute={'/contact/'}
     />
   </Layout>
 )
