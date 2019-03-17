@@ -1,5 +1,11 @@
 @import '../../styles/main.scss';
 
+html {
+  // stop content from shifting left
+  margin-left: calc(100vw - 100%);
+  margin-right: 0;
+}
+
 html,
 body,
 #___gatsby,
