@@ -3,6 +3,8 @@ import React from 'react';
 import styles from './portfolio-content.module.scss'
 import PortfolioItem from '../portfolio-item/portfolio-item';
 
+const gitHubRepoUrl = 'https://github.com/LeoReeves/projects/tree/master/';
+
 const PortfolioContent = () => (
   <section className={styles.portfolioContainer}>
     <div className={styles.portfolioRow}>
@@ -12,37 +14,51 @@ const PortfolioContent = () => (
         secondaryHeading={'HTML, CSS, Bootstrap'}
         description={'Tribute to the musician Elliott Smith'}
         buttonRoute={'/projects/elliott-smith-tribute-page/'}
-        buttonRouteSecondary={'https://github.com/LeoReeves/projects/tree/master/elliott-smith-tribute-page'}
+        buttonRouteSecondary={`${gitHubRepoUrl}elliott-smith-tribute-page`}
       />
       <PortfolioItem
         imageFileName={'quotes-on-design-generator.jpg'}
-        heading={'Quotes on Design Generator'}
+        primaryHeading={'Quotes on Design Generator'}
+        secondaryHeading={'HTML, CSS, jQuery, AJAX'}
         description={'Minimial quote generator powered by '}
-        buttonRoute={'/portfolio/quotes-on-design-generator'}
         link={'https://quotesondesign.com/api-v4-0/'}
         linkText={'Quotes on Design API'}
+        buttonRoute={'/projects/quotes-on-design-generator'}
+        buttonRouteSecondary={`${gitHubRepoUrl}quotes-on-design-generator`}
       />
       <PortfolioItem
         imageFileName={'simple-clock.png'}
-        heading={'Simple clock'}
+        primaryHeading={'Simple clock'}
+        secondaryHeading={'HTML, CSS, Vue.js'}
         description={'Simple clock with switchable digital and analogue face'}
+        buttonRoute={'/projects/simple-clock/'}
+        buttonRouteSecondary={`${gitHubRepoUrl}simple-clock`}
       />
       <PortfolioItem
         imageFileName={'uk-vat-calculator.png'}
-        heading={'UK Vat Calculator'}
+        primaryHeading={'UK Vat Calculator'}
+        secondaryHeading={'HTML, CSS, Vue.js'}
         description={'Minimal calculator for quickly calculating VAT'}
+        buttonRoute={'/projects/uk-vat-calculator/'}
+        buttonRouteSecondary={`${gitHubRepoUrl}uk-vat-calculator`}
       />
       <PortfolioItem
         imageFileName={'hex-colour-generator.jpg'}
-        heading={'Hex Colour Generator'}
+        primaryHeading={'Hex Colour Generator'}
+        secondaryHeading={'HTML, CSS, JavaScript'}
         description={'Generate random hex colours'}
+        buttonRoute={'projects/hex-colour-generator/'}
+        buttonRouteSecondary={`${gitHubRepoUrl}hex-colour-generator`}
       />
       <PortfolioItem
         imageFileName={'geolocation-weather-app.png'}
-        heading={'Geolocation Weather App'}
+        primaryHeading={'Geolocation Weather App'}
+        secondaryHeading={'HTML, CSS, JavaScript, jQuery, AJAX'}
         description={'Simple weather app, powered by '}
         link={'https://darksky.net/dev'}
         linkText={'Dark Sky API'}
+        buttonRoute={'projects/geolocation-weather-app/'}
+        buttonRouteSecondary={`${gitHubRepoUrl}geolocation-weather-app`}
       />
     </div>
   </section>

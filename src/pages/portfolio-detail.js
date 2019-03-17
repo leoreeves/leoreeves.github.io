@@ -4,11 +4,10 @@ import Layout from '../components/layout/layout';
 import Header from '../components/header/header';
 
 const PortfolioDetail = ({location}) => (
-  console.log(location),
   <Layout>
     <Header
       primaryHeading={location.state.primaryHeading}
-      secondaryHeading={'HTML, CSS, Bootstrap'}
+      secondaryHeading={location.state.secondaryHeading}
       imageFileName={location.state.imageFileName}
       buttonText={'Demo'}
       buttonRoute={location.state.buttonRoute}

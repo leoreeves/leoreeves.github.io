@@ -19,9 +19,9 @@ const PortfolioItem = (props) => (
           {
             primaryHeading: props.primaryHeading,
             secondaryHeading: props.secondaryHeading,
-            imageFileName: props.imageFileName,
             buttonRoute: props.buttonRoute,
             buttonRouteSecondary: props.buttonRouteSecondary,
+            imageFileName: props.imageFileName,
           }
         )}
       >
