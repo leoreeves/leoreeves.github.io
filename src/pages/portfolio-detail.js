@@ -15,6 +15,7 @@ const PortfolioDetail = ({location}) => (
         buttonRoute={location.state.buttonRoute}
         buttonTextSecondary={'Code'}
         buttonRouteSecondary={location.state.buttonRouteSecondary}
+        buttonExternal={true}
         buttonExternalSecondary={true}
       />
     }

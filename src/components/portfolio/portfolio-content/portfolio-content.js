@@ -3,6 +3,7 @@ import React from 'react';
 import styles from './portfolio-content.module.scss'
 import PortfolioItem from '../portfolio-item/portfolio-item';
 
+const gitHubPageProjectsUrl = 'https://leoreeves.github.io/projects/';
 const gitHubRepoUrl = 'https://github.com/LeoReeves/projects/tree/master/';
 
 const PortfolioContent = () => (
@@ -13,7 +14,7 @@ const PortfolioContent = () => (
         primaryHeading={'Elliott Smith'}
         secondaryHeading={'HTML, CSS, Bootstrap'}
         description={'Tribute to the musician Elliott Smith'}
-        buttonRoute={'/projects/elliott-smith-tribute-page/'}
+        buttonRoute={`${gitHubPageProjectsUrl}elliott-smith-tribute-page`}
         buttonRouteSecondary={`${gitHubRepoUrl}elliott-smith-tribute-page`}
       />
       <PortfolioItem
@@ -23,7 +24,7 @@ const PortfolioContent = () => (
         description={'Minimial quote generator powered by '}
         link={'https://quotesondesign.com/api-v4-0/'}
         linkText={'Quotes on Design API'}
-        buttonRoute={'/projects/quotes-on-design-generator'}
+        buttonRoute={`${gitHubPageProjectsUrl}quotes-on-design-generator`}
         buttonRouteSecondary={`${gitHubRepoUrl}quotes-on-design-generator`}
       />
       <PortfolioItem
@@ -31,7 +32,7 @@ const PortfolioContent = () => (
         primaryHeading={'Simple clock'}
         secondaryHeading={'HTML, CSS, Vue.js'}
         description={'Simple clock with switchable digital and analogue face'}
-        buttonRoute={'/projects/simple-clock/'}
+        buttonRoute={`${gitHubPageProjectsUrl}simple-clock`}
         buttonRouteSecondary={`${gitHubRepoUrl}simple-clock`}
       />
       <PortfolioItem
@@ -39,7 +40,7 @@ const PortfolioContent = () => (
         primaryHeading={'UK Vat Calculator'}
         secondaryHeading={'HTML, CSS, Vue.js'}
         description={'Minimal calculator for quickly calculating VAT'}
-        buttonRoute={'/projects/uk-vat-calculator/'}
+        buttonRoute={`${gitHubPageProjectsUrl}uk-vat-calculator`}
         buttonRouteSecondary={`${gitHubRepoUrl}uk-vat-calculator`}
       />
       <PortfolioItem
@@ -47,7 +48,7 @@ const PortfolioContent = () => (
         primaryHeading={'Hex Colour Generator'}
         secondaryHeading={'HTML, CSS, JavaScript'}
         description={'Generate random hex colours'}
-        buttonRoute={'projects/hex-colour-generator/'}
+        buttonRoute={`${gitHubPageProjectsUrl}hex-colour-generator`}
         buttonRouteSecondary={`${gitHubRepoUrl}hex-colour-generator`}
       />
       <PortfolioItem
@@ -57,7 +58,7 @@ const PortfolioContent = () => (
         description={'Simple weather app, powered by '}
         link={'https://darksky.net/dev'}
         linkText={'Dark Sky API'}
-        buttonRoute={'projects/geolocation-weather-app/'}
+        buttonRoute={`${gitHubPageProjectsUrl}geolocation-weather-app`}
         buttonRouteSecondary={`${gitHubRepoUrl}geolocation-weather-app`}
       />
     </div>

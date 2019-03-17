@@ -15,11 +15,11 @@ const Header = (props) => (
         {
           props.buttonText &&
           <div className={styles.primaryButton}>
-              <RouteButton
-                buttonText={props.buttonText}
-                buttonRoute={props.buttonRoute}
-                buttonExternal={props.buttonExternal}
-              />
+            <RouteButton
+              buttonText={props.buttonText}
+              buttonRoute={props.buttonRoute}
+              buttonExternal={props.buttonExternal}
+            />
           </div>
         }
         {
