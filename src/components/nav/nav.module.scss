@@ -28,8 +28,8 @@
     }
 
     &:hover {
-      color: #00AC7E;
-      border-bottom-color: #00AC7E;
+      color: $color-green;
+      border-bottom-color: $color-green;
       transition: all 0.1s ease-in;
     }
   }
