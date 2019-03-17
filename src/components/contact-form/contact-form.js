@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from './contact-form.module.scss';
-import RouteButton from '../buttons/route-button';
+import RouteButton from '../route-button/route-button';
 
 const formspreeUrl = '//formspree.io/';
 const emailLabel = 'leojreeves+portfolio';

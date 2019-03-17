@@ -1,7 +1,7 @@
 import React from 'react';
 import { navigate } from 'gatsby';
 
-import styles from './button.module.scss';
+import styles from './route-button.module.scss';
 
 function navigateToRoute(route, external) {
   if (route) {

@@ -1,7 +1,8 @@
 import React from 'react';
 
-import RouteButton from '../buttons/route-button';
 import Image from '../image';
+import RouteButton from '../route-button/route-button';
+
 import styles from './header.module.scss'
 
 const Header = (props) => (
