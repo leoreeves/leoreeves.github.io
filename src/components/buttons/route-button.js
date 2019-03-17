@@ -4,7 +4,6 @@ import { navigate } from 'gatsby';
 import styles from './button.module.scss';
 
 function navigateToRoute(route, external) {
-  console.log('External ', external);
   if (route) {
     if (external) {
       window.open(route, '_blank');
@@ -16,7 +15,7 @@ function navigateToRoute(route, external) {
 
 const RouteButton = (props) => (
   <button
-    className={styles.defaultButton}
+    className={`${styles.routeButton} ${props.primary ? styles.primary : styles.secondary}`}
     onClick={() => navigateToRoute(props.buttonRoute, props.buttonExternal)}
   >
     { props.buttonText }

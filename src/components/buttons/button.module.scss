@@ -1,6 +1,6 @@
 @import '../../styles/main.scss';
 
-.defaultButton {
+.routeButton {
   border: 0;
   outline: 0;
   font-family: $hind;
@@ -9,6 +9,9 @@
   padding: 10px 20px;
   cursor: pointer;
   color: $color-text;
+}
+
+.primary {
   background-color: $color-green;
 
   &:active {
@@ -21,5 +24,17 @@
 
   @media #{$small-device-query} {
     font-size: 1.05em;
+  }
+}
+
+.secondary {
+  background-color: $color-blue;
+
+  &:active {
+    background-color: $color-blue;
+  }
+
+  &:hover {
+    background-color: $color-blue-highlighted;
   }
 }

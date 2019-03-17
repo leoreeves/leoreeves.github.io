@@ -18,6 +18,7 @@ const Header = (props) => (
                 buttonText={props.buttonText}
                 buttonRoute={props.buttonRoute}
                 buttonExternal={props.buttonExternal}
+                primary={true}
               />
           </div>
         }
