@@ -8,7 +8,7 @@ import Header from '../components/header/header';
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" keywords={['Leo Reeves', 'portfolio', 'about']} />
+    <SEO title="About" keywords={['Leo Reeves', 'about me']} />
     <Header
       primaryHeading={'A little about me.'}
       secondaryHeading={'Front-end Developer'}
