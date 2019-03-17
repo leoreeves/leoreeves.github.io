@@ -27,7 +27,7 @@ const Footer = () => (
         Github
       </a>
       <a
-        href="https://www.linkedin.com/in/leoreeves//"
+        href="https://www.linkedin.com/in/leoreeves/"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.navLink}
