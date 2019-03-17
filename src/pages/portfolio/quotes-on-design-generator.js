@@ -13,7 +13,8 @@ const QuotesOnDesignPage = () => (
       buttonText={'Demo'}
       buttonRoute={'/projects/quotes-on-design-generator/'}
       buttonTextSecondary={'Code'}
-      buttonExternalSecondary={'https://github.com/LeoReeves/projects/tree/master/quotes-on-design-generator'}
+      buttonRouteSecondary={'https://github.com/LeoReeves/projects/tree/master/quotes-on-design-generator'}
+      buttonExternalSecondary={true}
     />
   </Layout>
 )
