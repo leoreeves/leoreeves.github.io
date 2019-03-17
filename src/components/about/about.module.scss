@@ -33,7 +33,6 @@
     display: flex;
     justify-content: space-between;
     font-family: $hind;
-    flex-flow: column;
     margin-bottom: 0;
 
     &:first-child {
@@ -46,9 +45,17 @@
     margin-bottom: 10px;
   }
 
+  @media #{$medium-device-query} {
+    .experienceHeading {
+      flex-flow: column;
+    }
+  }
+
   @media #{$small-device-query} {
-    .about-row:last-of-type {
-      margin-bottom: 0;
+    .aboutRow {
+      &:last-of-type {
+        margin-bottom: 10px;
+      }
     }
 
     .aboutHeading,

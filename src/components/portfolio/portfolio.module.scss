@@ -41,6 +41,10 @@
   @media #{$small-device-query} {
     .portfolioItem {
       width: 100%;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
     }
   }
 }
