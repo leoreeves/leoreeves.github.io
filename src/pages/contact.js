@@ -8,10 +8,10 @@ import Header from '../components/header/header';
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" keywords={['Leo Reeves', 'portfolio', 'contact']} />
+    <SEO title="Contact" keywords={['Leo Reeves', 'contact']} />
     <Header
-      primaryHeading={'Let’s chat!'}
-      secondaryHeading={'Reach out for help with a project or just to say hello!'}
+      primaryHeading={'Want to talk?'}
+      secondaryHeading={'Write me a message!'}
     />
     <ContactForm />
   </Layout>
