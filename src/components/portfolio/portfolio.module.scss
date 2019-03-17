@@ -1,0 +1,24 @@
+@import '../../styles/main.scss';
+
+.portfolioContainer {
+  display: flex;
+  flex-direction: column;
+
+  .portfolioRow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .portfolioItem {
+    width: 45%;
+  }
+
+  @media #{$small-device-query} {
+    .portfolioItem {
+      width: 100%;
+    }
+  }
+}
