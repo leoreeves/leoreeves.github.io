@@ -6,6 +6,14 @@
 
   .portfolioDetailRow {
     display: flex;
-    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .portfolioDetailCol {
+    width: 100%;
+  }
+
+  @media #{$medium-device-query} {
+    width: 100%;
   }
 }

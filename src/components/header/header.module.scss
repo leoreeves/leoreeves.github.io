@@ -4,9 +4,12 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
   margin-bottom: 40px;
 
   .headerContent {
+    display: flex;
+    flex-direction: column;
     width: 45%;
 
     .primaryHeading,
@@ -23,12 +26,20 @@
       font-size: 3em;
     }
 
-    .headingRow {
+    .headerRow {
       padding: 0 40px;
       margin: 40px 0;
       width: 40px;
       height: 2px;
       background: $color-text;
+    }
+
+    .headerButtons {
+      display: flex;
+
+      .primaryButton {
+        margin-right: 20px;
+      }
     }
   }
 
@@ -38,6 +49,8 @@
 
   @media #{$large-device-query} {
     .headerContent {
+      margin-bottom: 40px;
+
       .primaryHeading {
         font-size: 3.25em;
       }
