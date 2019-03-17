@@ -1,13 +1,7 @@
 import React from 'react';
-import { navigate } from 'gatsby';
 
 import styles from './portfolio-content.module.scss'
-import Image from '../../image';
 import PortfolioItem from '../portfolio-item/portfolio-item';
-
-function openPortfolioItem(portfolioItem) {
-  navigate(portfolioItem);
-}
 
 const PortfolioContent = () => (
   <section className={styles.portfolioContainer}>
