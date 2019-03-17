@@ -8,11 +8,17 @@ function openPortfolioItem(portfolioItem) {
   navigate(portfolioItem);
 }
 
-const Portfolio = () => (
-  <div className={styles.portfolioContainer}>
+const PortfolioContent = () => (
+  <section className={styles.portfolioContainer}>
     <div className={styles.portfolioRow}>
       <div className={styles.portfolioItem}>
-        <Image filename="elliott-smith-tribute-page.jpg" />
+        <div
+            className={styles.portfolioImageContainer}
+            onClick={() => openPortfolioItem('/portfolio/elliott-smith-tribute')}
+          >
+          <Image filename="elliott-smith-tribute.jpg" />
+          <div className={styles.portfolioImageOverlay}></div>
+        </div>
         <h3>Elliott Smith</h3>
         <p>Tribute to the musician Elliott Smith.</p>
       </div>
@@ -73,7 +79,7 @@ const Portfolio = () => (
         </p>
       </div>
     </div>
-  </div>
+  </section>
 )
 
-export default Portfolio;
+export default PortfolioContent;
