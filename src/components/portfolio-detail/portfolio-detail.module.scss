@@ -1,0 +1,11 @@
+@import '../../styles/main.scss';
+
+.portfolioDetailContainer {
+  margin: 40px 0;
+  width: 45%;
+
+  .portfolioDetailRow {
+    display: flex;
+    justify-content: space-between;
+  }
+}

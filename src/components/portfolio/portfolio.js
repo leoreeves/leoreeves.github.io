@@ -1,7 +1,12 @@
 import React from 'react';
+import { navigate } from 'gatsby';
 
 import styles from './portfolio.module.scss'
 import Image from '../image';
+
+function openPortfolioItem(portfolioItem) {
+  navigate(portfolioItem);
+}
 
 const Portfolio = () => (
   <div className={styles.portfolioContainer}>
@@ -12,7 +17,13 @@ const Portfolio = () => (
         <p>Tribute to the musician Elliott Smith.</p>
       </div>
       <div className={styles.portfolioItem}>
-        <Image filename="quotes-on-design-generator.jpg" />
+        <div
+          className={styles.portfolioImageContainer}
+          onClick={() => openPortfolioItem('/portfolio/quotes-on-design-generator')}
+        >
+          <Image filename="quotes-on-design-generator.jpg" />
+          <div className={styles.portfolioImageOverlay}></div>
+        </div>
         <h3>Quotes on Design Generator</h3>
         <p>
           Minimial quote generator powered by
