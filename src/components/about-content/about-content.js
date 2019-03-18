@@ -1,8 +1,8 @@
 import React from 'react';
 
-import styles from './about.module.scss';
+import styles from './about-content.module.scss';
 
-const About = () => (
+const AboutContent = () => (
   <div className={styles.aboutContainer}>
     <div className={styles.aboutRow}>
       <h3 className={styles.aboutHeading}>Profile</h3>
@@ -46,4 +46,4 @@ const About = () => (
   </div>
 )
 
-export default About;
+export default AboutContent;

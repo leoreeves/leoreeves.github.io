@@ -1,6 +1,6 @@
 import React from 'react';
 
-import About from '../components/about/about';
+import AboutContent from '../components/about-content/about-content';
 import Header from '../components/header/header';
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
@@ -16,7 +16,7 @@ const AboutPage = () => (
       buttonExternal={true}
       imageFileName={'profile.png'}
     />
-    <About />
+    <AboutContent />
   </Layout>
 )
 
