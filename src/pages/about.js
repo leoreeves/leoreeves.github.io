@@ -14,6 +14,7 @@ const AboutPage = () => (
       buttonText={'Download CV'}
       buttonRoute={'https://drive.google.com/file/d/1qkwftwFC4vzaYQ00fO0hA7lnmyIQcFqC/view'}
       buttonExternal={true}
+      imageFileName={'profile.png'}
     />
     <About />
   </Layout>
