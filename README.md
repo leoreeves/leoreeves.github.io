@@ -2,7 +2,8 @@
 
 ### Setup
 - run `git clone REPOSITORY`
-- change directory to project
+- change directory to project folder
+- run `git checkout develop`
 - run `npm i`
 
 ### Develop
