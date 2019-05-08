@@ -9,4 +9,4 @@
 - run `gatsby develop`
 
 ### Deploy
-- run `npm deploy`
+- run `npm run deploy`
