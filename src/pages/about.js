@@ -11,7 +11,7 @@ const AboutPage = () => (
     <Header
       primaryHeading={'About'}
       buttonText={'Download CV'}
-      buttonRoute={'https://drive.google.com/file/d/1qkwftwFC4vzaYQ00fO0hA7lnmyIQcFqC/view'}
+      buttonRoute={'https://docs.google.com/document/d/1vD0v2erFUkg4HdOV3Tw-Jwlf7QVyec7OBiA4apjtl8M/export?format=pdf&attachment=false'}
       buttonExternal={true}
       imageFileName={'profile.png'}
     />
