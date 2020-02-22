@@ -24,6 +24,21 @@ const PortfolioItem = (props) => (
             imageFileName: props.imageFileName,
           }
         )}
+        onKeyPress={(event) => {
+          if (event.key === 'Enter') {
+            openPortfolioItem(
+              {
+                primaryHeading: props.primaryHeading,
+                secondaryHeading: props.secondaryHeading,
+                buttonRoute: props.buttonRoute,
+                buttonRouteSecondary: props.buttonRouteSecondary,
+                imageFileName: props.imageFileName,
+              }
+            )
+          }
+        }}
+        role="button"
+        tabIndex={0}
       >
       <Image filename={props.imageFileName} />
       <div className={styles.imageOverlay}></div>
