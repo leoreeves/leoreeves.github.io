@@ -10,8 +10,7 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Contact" keywords={['Leo Reeves', 'contact']} />
     <Header
-      primaryHeading={'Want to talk?'}
-      secondaryHeading={'Write me a message!'}
+      primaryHeading={'Contact'}
     />
     <ContactForm />
   </Layout>
