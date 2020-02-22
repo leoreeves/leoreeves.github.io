@@ -2,6 +2,7 @@ import React from 'react';
 
 import Image from '../image';
 import RouteButton from '../route-button/route-button';
+import navigateToRoute from '../../utils/helpers'
 
 import styles from './header.module.scss'
 
@@ -14,7 +15,12 @@ const Header = (props) => (
       <div className={styles.headerButtons}>
         {
           props.buttonText &&
-          <div className={styles.primaryButton}>
+          <div 
+            className={styles.primaryButton}
+            role="button"
+            tabIndex={0}
+            onKeyPress={() => navigateToRoute(props.buttonRoute, props.buttonExternal)}
+          >
             <RouteButton
               buttonText={props.buttonText}
               buttonRoute={props.buttonRoute}
@@ -24,12 +30,19 @@ const Header = (props) => (
         }
         {
           props.buttonTextSecondary &&
-          <RouteButton
-            buttonText={props.buttonTextSecondary}
-            buttonRoute={props.buttonRouteSecondary}
-            buttonExternal={props.buttonExternalSecondary}
-            secondary={true}
-          />
+          <div
+            role="button"
+            tabIndex={0}
+            onKeyPress={() => navigateToRoute(props.buttonRouteSecondary, props.buttonExternalSecondary)}
+          >
+            <RouteButton
+              buttonText={props.buttonTextSecondary}
+              buttonRoute={props.buttonRouteSecondary}
+              buttonExternal={props.buttonExternalSecondary}
+              secondary={true}
+              tabIndex={0}
+            />
+          </div>
         }
       </div>
     </content>
