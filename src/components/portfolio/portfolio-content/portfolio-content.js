@@ -22,7 +22,7 @@ const PortfolioContent = () => (
         primaryHeading={'Quotes on Design Generator'}
         secondaryHeading={'HTML, CSS, jQuery, AJAX'}
         description={'Minimial quote generator powered by '}
-        link={'https://quotesondesign.com/api-v4-0/'}
+        link={'https://quotesondesign.com/api/'}
         linkText={'Quotes on Design API'}
         buttonRoute={`${gitHubPageProjectsUrl}quotes-on-design-generator`}
         buttonRouteSecondary={`${gitHubRepoUrl}quotes-on-design-generator`}
