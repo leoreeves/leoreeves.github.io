@@ -48,7 +48,7 @@ const PortfolioContent = () => (
         primaryHeading={'Contacts Manager'}
         secondaryHeading={'HTML, Sass, Ionic'}
         description={'Allows users to create, edit and view contacts'}
-        buttonRoute={`https://ionic-contacts-manager-app.herokuapp.com/`}
+        buttonRoute={`https://ionic-contacts-manager.netlify.com`}
         buttonRouteSecondary={'https://github.com/leoreeves/projects/tree/master/ionic-contacts-manager'}
       />
       <PortfolioItem
