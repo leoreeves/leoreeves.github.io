@@ -1,7 +1,7 @@
 {
-  "name": "leo-reeves-portfolio",
+  "name": "leo-reeves",
   "private": true,
-  "description": "Leo Reeves Portfolio",
+  "description": "Leo Reeves",
   "version": "0.0.1",
   "dependencies": {
     "gatsby": "^2.19.19",
