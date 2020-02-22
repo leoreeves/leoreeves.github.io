@@ -46,6 +46,10 @@
     margin-bottom: 10px;
   }
 
+  .designHeading {
+    margin-bottom: 10px;
+  }
+
   @media #{$medium-device-query} {
     .experienceHeading {
       flex-flow: column;

@@ -15,8 +15,14 @@ const AboutContent = () => (
       <h3 className={styles.aboutHeading}>Experience</h3>
       <div className={styles.aboutContent}>
         <h4 className={styles.experienceHeading}>
+          <span>Prolific</span>
+          <span>Jul. 2019 – Present</span>
+        </h4>
+        <span>Frontend Developer</span>
+        <hr/>
+        <h4 className={styles.experienceHeading}>
           <span>Lavanda</span>
-          <span>Sept. 2017 – Present</span>
+          <span>Sept. 2017 – Jun. 2019</span>
         </h4>
         <span>Front-end Engineer</span>
         <hr/>
@@ -26,12 +32,6 @@ const AboutContent = () => (
         </h4>
         <span>Junior Software Developer</span>
         <hr/>
-        <h4 className={styles.experienceHeading}>
-          <span>Connells</span>
-          <span>Dec. 2015 – Mar. 2017</span>
-        </h4>
-        <span>QC & Mortgage Consultant</span>
-        <hr/>
       </div>
     </div>
     <div className={styles.aboutRow}>
@@ -39,7 +39,7 @@ const AboutContent = () => (
       <div className={styles.aboutContent}>
         <h4 className={styles.developmentHeading}>Development</h4>
         <span>JavaScript (ES6), TypeScript, React, Ionic, Angular 4+, Vue.js, Semantic HTML, CSS/Sass, Bootstrap, Git</span>
-        <h4>Design</h4>
+        <h4 className={styles.designHeading}>Design</h4>
         <span>Sketch, Figma, Photoshop, After Effects</span>
       </div>
     </div>
