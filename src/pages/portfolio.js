@@ -7,7 +7,7 @@ import SEO from '../components/seo';
 
 const PortfolioPage = () => (
   <Layout>
-    <SEO title="Portfolio" keywords={['Leo Reeves', 'portfolio', 'featured work']} />
+    <SEO title="Portfolio" keywords={['Leo Reeves', 'portfolio']} />
     <Header
       primaryHeading={'Portfolio'}
     />

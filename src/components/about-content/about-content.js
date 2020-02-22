@@ -18,7 +18,7 @@ const AboutContent = () => (
           <span>Prolific</span>
           <span>Jul. 2019 – Present</span>
         </h4>
-        <span>Frontend Developer</span>
+        <span>Front-end Developer</span>
         <hr/>
         <h4 className={styles.experienceHeading}>
           <span>Lavanda</span>
@@ -38,7 +38,7 @@ const AboutContent = () => (
       <h3 className={styles.aboutHeading}>Skills</h3>
       <div className={styles.aboutContent}>
         <h4 className={styles.developmentHeading}>Development</h4>
-        <span>JavaScript (ES6), TypeScript, React, Ionic, Angular 4+, Vue.js, Semantic HTML, CSS/Sass, Bootstrap, Git</span>
+        <span>JavaScript (ES6+), TypeScript, React, Angular 4+, Vue.js, Semantic HTML, CSS, Sass, Bootstrap, Git</span>
         <h4 className={styles.designHeading}>Design</h4>
         <span>Sketch, Figma, Photoshop, After Effects</span>
       </div>

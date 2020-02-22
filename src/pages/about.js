@@ -7,7 +7,7 @@ import SEO from '../components/seo';
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" keywords={['Leo Reeves', 'about me']} />
+    <SEO title="About" keywords={['Leo Reeves', 'about']} />
     <Header
       primaryHeading={'About'}
       buttonText={'Download CV'}
