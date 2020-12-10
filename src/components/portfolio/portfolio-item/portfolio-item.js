@@ -4,10 +4,9 @@ import { navigate } from 'gatsby';
 import styles from './portfolio-item.module.scss'
 import Image from '../../image';
 
-function openPortfolioItem(state) {
+function openPortfolioItem(id) {
   navigate(
-    '/portfolio-detail/',
-    { state },
+    `/portfolio/${id}`,
   );
 }
 
@@ -15,26 +14,10 @@ const PortfolioItem = (props) => (
   <div className={styles.portfolioItem}>
     <div
         className={styles.imageContainer}
-        onClick={() => openPortfolioItem(
-          {
-            primaryHeading: props.primaryHeading,
-            secondaryHeading: props.secondaryHeading,
-            buttonRoute: props.buttonRoute,
-            buttonRouteSecondary: props.buttonRouteSecondary,
-            imageFileName: props.imageFileName,
-          }
-        )}
+        onClick={() => openPortfolioItem(props.id)}
         onKeyPress={(event) => {
           if (event.key === 'Enter') {
-            openPortfolioItem(
-              {
-                primaryHeading: props.primaryHeading,
-                secondaryHeading: props.secondaryHeading,
-                buttonRoute: props.buttonRoute,
-                buttonRouteSecondary: props.buttonRouteSecondary,
-                imageFileName: props.imageFileName,
-              }
-            )
+            openPortfolioItem(props.id)
           }
         }}
         role="button"
