@@ -1,11 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
-
 import Nav from '../nav/nav';
 
 import styles from './layout.module.scss';
 import './layout.scss';
+
+import PropTypes from 'prop-types';
 
 const Layout = ({ children }) => (
   <StaticQuery
