@@ -1,3 +1,5 @@
+import { GITHUB_URL, LINKEDIN_URL } from "../contstants/urls"
+
 export const copyrightLink = {
   name:  `© ${new Date().getFullYear()} Leo Reeves`
 }
@@ -5,10 +7,10 @@ export const copyrightLink = {
 export const footerLinks = [
   {
     name: 'Github',
-    url: 'https://github.com/leoreeves/'
+    url: GITHUB_URL
   },
   {
     name: 'Linkedin',
-    url: 'https://www.linkedin.com/in/leoreeves/'
+    url: LINKEDIN_URL
   },
 ]
