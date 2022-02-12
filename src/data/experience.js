@@ -4,7 +4,7 @@ export const experience = [
   { 
     name: 'Prolific',
     dates: 'Jul. 2019 – Present',
-    role: 'Frontend Engineer'
+    role: 'Frontend Engineer (Remote)'
   },
   { 
     name: 'Lavanda',

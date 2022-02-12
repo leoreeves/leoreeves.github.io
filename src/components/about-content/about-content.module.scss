@@ -31,14 +31,15 @@
   }
 
   .experienceHeading {
+    font-family: $hind;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+
+  }
+
+  .experienceContent {
     display: flex;
     justify-content: space-between;
-    font-family: $hind;
-    margin-bottom: 0;
-
-    &:first-child {
-      margin-top: 0;
-    }
   }
 
   .developmentHeading {
