@@ -6,10 +6,10 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={['Leo Reeves', 'front-end', 'developer']} />
+    <SEO title="Home" keywords={['Leo Reeves', 'frontend', 'developer']} />
     <Header
       primaryHeading={'Leo Reeves'}
-      secondaryHeading={'Front-end Developer'}
+      secondaryHeading={'Frontend Developer'}
       buttonText={'Contact Me'}
       buttonRoute={'/contact/'}
     />
