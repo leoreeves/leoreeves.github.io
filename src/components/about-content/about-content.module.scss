@@ -52,6 +52,11 @@
   }
 
   @media #{$medium-device-query} {
+    .aboutHeading,
+    .aboutContent {
+      width: 100%;
+    }
+
     .experienceHeading {
       flex-flow: column;
     }
@@ -62,11 +67,6 @@
       &:last-of-type {
         margin-bottom: 10px;
       }
-    }
-
-    .aboutHeading,
-    .aboutContent {
-      width: 100%;
     }
   }
 }

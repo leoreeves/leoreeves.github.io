@@ -14,6 +14,6 @@ export const experience = [
   { 
     name: 'Rapid Tender',
     dates: 'Apr. 2017 – Aug. 2017',
-    role: 'Junior Software Developer/Business Support'
+    role: 'Junior Software Developer'
   }
 ]
