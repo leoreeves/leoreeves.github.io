@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/header/header';
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
+import { CV_URL } from '../contstants/urls';
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +13,8 @@ const IndexPage = () => (
       secondaryHeading={'Frontend Developer'}
       buttonText={'Contact Me'}
       buttonRoute={'/contact/'}
+      buttonTextSecondary={'Download CV'}
+      buttonRouteSecondary={CV_URL}
     />
   </Layout>
 )
