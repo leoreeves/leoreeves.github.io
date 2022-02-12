@@ -1,10 +1,11 @@
 import React from 'react';
+
 import Image from '../image';
 import RouteButton from '../route-button/route-button';
 
-import styles from './header.module.scss'
-
 import navigateToRoute from '../../utils/helpers'
+
+import styles from './header.module.scss'
 
 const Header = (props) => (
   <header className={styles.headerContainer}>

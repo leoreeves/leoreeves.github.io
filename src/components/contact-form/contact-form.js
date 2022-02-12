@@ -1,7 +1,8 @@
 import React from 'react';
 
-import styles from './contact-form.module.scss';
 import RouteButton from '../route-button/route-button';
+
+import styles from './contact-form.module.scss';
 
 const emailLabel = 
   ['o', 'i', 'l', 'o', 'f', 't', 'r', 'o', 'p', '+', 's', 'e', 'v', 'e', 'e', 'r', 'j', 'o', 'e', 'l']

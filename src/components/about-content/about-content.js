@@ -1,10 +1,10 @@
 import React from 'react';
 
-import styles from './about-content.module.scss';
-
 import { experience, experienceHeading } from '../../data/experience';
 import { about } from '../../data/about';
 import { skills, skillsHeading } from '../../data/skills';
+
+import styles from './about-content.module.scss';
 
 const AboutContent = () => (
   <div className={styles.aboutContainer}>

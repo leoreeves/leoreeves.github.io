@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+
 import { rightHandLinks } from '../../data/right-hand-links'
 
 import styles from './nav.module.scss';
