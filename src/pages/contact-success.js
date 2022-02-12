@@ -7,7 +7,6 @@ const ContactSuccessPage = () => (
   <Layout>
     <Header
       primaryHeading={'Thank you for your message'}
-      secondaryHeading={'I will be in touch shortly!'}
       buttonText={'Return Home'}
       buttonRoute={'/'}
     />
