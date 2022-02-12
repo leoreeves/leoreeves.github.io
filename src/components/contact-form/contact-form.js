@@ -3,10 +3,12 @@ import React from 'react';
 import styles from './contact-form.module.scss';
 import RouteButton from '../route-button/route-button';
 
-const formspreeUrl = '//formspree.io/';
-const emailLabel = 'leojreeves+portfolio';
+const emailLabel = 
+  ['e', 't', 'i', 's', 'b', 'e', 'w', '+', 's', 'e', 'v', 'e', 'e', 'r', 'j', 'o', 'e', 'l']
+    .reverse()
+    .join('')
 const emailProvider = '@gmail.com';
-const formUrl = `${formspreeUrl}${emailLabel}${emailProvider}`;
+const formUrl = `//formspree.io/${emailLabel}${emailProvider}`;
 
 const ContactForm = () => (
   <form
