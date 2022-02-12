@@ -16,7 +16,7 @@
     margin-left: 20px;
     padding-bottom: 0.2em;
     color: $color-text;
-    opacity: 0.6;
+    opacity: 0.7;
     text-decoration: none;
     font-family: $hind;
     font-weight: 600;
@@ -42,13 +42,7 @@
 
     .navLink {
       margin-left: 10px;
-      font-size: 1.05em;
-    }
-  }
-
-  @media #{$extra-small-device-query} {
-    .navLink {
-      font-size: 0.85em;
+      font-size: 1.15em;
     }
   }
 }
