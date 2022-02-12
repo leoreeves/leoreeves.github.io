@@ -1,15 +1,15 @@
 import React from 'react';
 
 import { experience, experienceHeading } from '../../data/experience';
-import { profile } from '../../data/profile';
+import { about } from '../../data/about';
 import { skills, skillsHeading } from '../../data/skills';
 import styles from './about-content.module.scss';
 
 const AboutContent = () => (
   <div className={styles.aboutContainer}>
     <div className={styles.aboutRow}>
-      <h3 className={styles.aboutHeading}>{profile.heading}</h3>
-      <div className={styles.aboutContent}>{profile.content}</div>
+      <h3 className={styles.aboutHeading}>{about.heading}</h3>
+      <div className={styles.aboutContent}>{about.content}</div>
     </div>
     <div className={styles.aboutRow}>
       <h3 className={styles.aboutHeading}>{experienceHeading}</h3>
