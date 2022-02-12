@@ -4,7 +4,7 @@ import styles from './contact-form.module.scss';
 import RouteButton from '../route-button/route-button';
 
 const emailLabel = 
-  ['e', 't', 'i', 's', 'b', 'e', 'w', '+', 's', 'e', 'v', 'e', 'e', 'r', 'j', 'o', 'e', 'l']
+  ['o', 'i', 'l', 'o', 'f', 't', 'r', 'o', 'p', '+', 's', 'e', 'v', 'e', 'e', 'r', 'j', 'o', 'e', 'l']
     .reverse()
     .join('')
 const emailProvider = '@gmail.com';
