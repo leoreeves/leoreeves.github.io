@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Leo Reeves`,
-    description: `My name is Leo Reeves and I'm a frontend developer who is passionate about building beautiful and responsive websites and apps.`,
+    description: `My name is Leo Reeves and I am a frontend developer who is passionate about building beautiful and responsive websites and apps.`,
     author: `Leo Reeves`,
   },
   plugins: [
