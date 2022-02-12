@@ -1,5 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import { colorGreen } from '../../styles/colors.module.scss'
 
 import styles from './nav.module.scss';
 
@@ -14,14 +15,14 @@ const Nav = () => (
       </Link>
       <div>
         <Link
-          activeStyle={{ borderBottomColor: '#00AC7E' }}
+          activeStyle={{ borderBottomColor: colorGreen }}
           className={styles.navLink}
           to="/about/"
         >
           About
         </Link>
         <Link
-          activeStyle={{ borderBottomColor: '#00AC7E' }}
+          activeStyle={{ borderBottomColor: colorGreen }}
           className={styles.navLink}
           to="/contact/"
         >
