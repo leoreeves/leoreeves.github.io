@@ -4,10 +4,6 @@ export const copyrightLink = {
 
 export const footerLinks = [
   {
-    name: 'Codepen',
-    url: 'https://codepen.io/leoreeves/'
-  },
-  {
     name: 'Github',
     url: 'https://github.com/leoreeves/'
   },
