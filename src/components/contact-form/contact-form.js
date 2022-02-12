@@ -26,13 +26,13 @@ const ContactForm = () => (
       >
       </input>
       <label htmlFor="_replyto">
-        <h3>Email</h3>
+        <h3>Email address</h3>
       </label>
       <input
         className={styles.contactInput}
         name="_replyto"
         type="email"
-        placeholder="Enter your email"
+        placeholder="Enter your email address"
         required
       >
       </input>
