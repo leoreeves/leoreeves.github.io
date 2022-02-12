@@ -1,13 +1,13 @@
 @import '../../styles/main.scss';
 
 .layoutContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  padding: 0 60px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+  // height: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 60px;
 
   @media #{$small-device-query} {
     padding: 0 30px;

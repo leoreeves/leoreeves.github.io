@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   min-height: 80px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 
   .navContainer {
     display: flex;
@@ -15,7 +15,8 @@
   .navLink {
     margin-left: 20px;
     padding-bottom: 0.2em;
-    color: $color-green;
+    color: $color-text;
+    opacity: 0.6;
     text-decoration: none;
     font-family: $hind;
     font-weight: 600;
@@ -28,8 +29,8 @@
     }
 
     &:hover {
-      color: $color-green-highlighted;
       border-bottom-color: $color-green-highlighted;
+      opacity: 1;
       transition: all 0.1s ease-in;
     }
   }

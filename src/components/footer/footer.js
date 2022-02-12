@@ -7,9 +7,9 @@ import styles from './footer.module.scss';
 const Footer = () => (
   <footer className={styles.footer}>
     <div className={styles.navContainer}>
-      <Link className={styles.navLink} to="/">
+      {/* <Link className={styles.navLink} to="/">
         {copyrightLink.name}
-      </Link>
+      </Link> */}
       <div>
         {
           footerLinks.map((link, index) => {
