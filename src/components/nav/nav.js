@@ -1,7 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import { colorGreen } from '../../styles/colors.module.scss'
-import { footerLinks } from '../../data/footer'
+import { rightHandLinks } from '../../data/right-hand-links'
 
 import styles from './nav.module.scss';
 
@@ -28,7 +28,7 @@ const Nav = () => (
       </div>
       <div>
         {
-          footerLinks.map((link, index) => {
+          rightHandLinks.map((link, index) => {
             return (
               <a
                 key={index}
