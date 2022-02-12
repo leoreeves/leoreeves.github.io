@@ -1,3 +1,5 @@
+export const experienceHeading = 'Experience'
+
 export const experience = [
   { 
     name: 'Prolific',
