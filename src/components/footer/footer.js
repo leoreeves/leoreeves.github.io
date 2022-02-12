@@ -7,7 +7,7 @@ const Footer = () => (
   <footer className={styles.footer}>
     <div className={styles.navContainer}>
       <Link className={styles.navLink} to="/">
-        { `© 2020 Leo Reeves` }
+        { `© ${new Date().getFullYear()} Leo Reeves` }
       </Link>
       <a
         style={{ marginLeft: `auto` }}
