@@ -3,7 +3,8 @@
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  padding: 25px 0;
+  padding-top: 25px;
+  padding-bottom: 40px;
 
   .aboutRow {
     width: 100%;
@@ -16,7 +17,7 @@
 
   .aboutHeading,
   .aboutContent {
-    width: 45%;
+    width: 100%;
   }
 
   .aboutHeading {
@@ -33,11 +34,8 @@
   .experienceHeading {
     font-family: $hind;
     font-size: 1.1em;
+    margin-top: 0;
     margin-bottom: 10px;
-
-  }
-
-  .experienceContent {
     display: flex;
     justify-content: space-between;
   }
@@ -56,10 +54,6 @@
     .aboutContent {
       width: 100%;
     }
-
-    .experienceHeading {
-      flex-flow: column;
-    }
   }
 
   @media #{$small-device-query} {
@@ -67,6 +61,12 @@
       &:last-of-type {
         margin-bottom: 10px;
       }
+    }
+  }
+
+  @media #{$extra-small-device-query} {
+    .experienceHeading {
+      flex-flow: column;
     }
   }
 }

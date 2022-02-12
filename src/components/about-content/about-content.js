@@ -20,11 +20,11 @@ const AboutContent = () => (
             return (
               <div key={index}>
                 <h4 className={styles.experienceHeading}>
-                  {experience.name}
+                  <span>{experience.name}</span>
+                  <span>{experience.dates}</span>
                 </h4>
                 <div className={styles.experienceContent}>
-                  <em>{experience.role}</em>
-                  <span>{experience.dates}</span>
+                  <span>{experience.role}</span>
                 </div>
                 <hr/>
               </div>
