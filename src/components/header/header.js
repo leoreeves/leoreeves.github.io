@@ -8,7 +8,7 @@ import styles from './header.module.scss'
 
 const Header = (props) => (
   <header className={styles.headerContainer}>
-    <content className={styles.headerContent}>
+    <header className={styles.headerContent}>
       <h1 className={styles.primaryHeading}>{props.primaryHeading}</h1>
       <h2 className={styles.secondaryHeading}>{props.secondaryHeading}</h2>
       <hr className={styles.headerRow} />
@@ -45,7 +45,7 @@ const Header = (props) => (
           </div>
         }
       </div>
-    </content>
+    </header>
     {
       props.imageFileName &&
       <div className={styles.headerImage}>
