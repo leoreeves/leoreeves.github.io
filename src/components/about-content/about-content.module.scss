@@ -3,7 +3,7 @@
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  padding-top: 25px;
+  padding: 25px 0;
 
   .aboutRow {
     width: 100%;
@@ -31,14 +31,15 @@
   }
 
   .experienceHeading {
+    font-family: $hind;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+
+  }
+
+  .experienceContent {
     display: flex;
     justify-content: space-between;
-    font-family: $hind;
-    margin-bottom: 0;
-
-    &:first-child {
-      margin-top: 0;
-    }
   }
 
   .developmentHeading {
@@ -51,6 +52,11 @@
   }
 
   @media #{$medium-device-query} {
+    .aboutHeading,
+    .aboutContent {
+      width: 100%;
+    }
+
     .experienceHeading {
       flex-flow: column;
     }
@@ -61,11 +67,6 @@
       &:last-of-type {
         margin-bottom: 10px;
       }
-    }
-
-    .aboutHeading,
-    .aboutContent {
-      width: 100%;
     }
   }
 }

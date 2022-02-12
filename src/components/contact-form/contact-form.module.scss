@@ -2,8 +2,8 @@
 
 .contactContainer {
   width: 45%;
-  margin-bottom: 20px;
-  margin-top: -40px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 
   .contactRow {
     .contactInput {
@@ -39,5 +39,8 @@
 
   @media #{$medium-device-query} {
     width: 100%;
+  }
+  @media #{$small-device-query} {
+    padding-top: 0;
   }
 }

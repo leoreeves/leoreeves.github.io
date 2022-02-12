@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 
 import Nav from '../nav/nav';
-import Footer from '../footer/footer';
 
 import styles from './layout.module.scss';
 import './layout.scss';
@@ -23,7 +22,6 @@ const Layout = ({ children }) => (
       <div className={styles.layoutContainer}>
         <Nav />
         <main>{children}</main>
-        <Footer />
       </div>
     )}
   />
