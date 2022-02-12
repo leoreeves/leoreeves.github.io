@@ -1,11 +1,10 @@
 import { Link } from 'gatsby';
 import React from 'react';
-import { colorGreen } from '../../styles/colors.module.scss'
 import { rightHandLinks } from '../../data/right-hand-links'
 
 import styles from './nav.module.scss';
 
-const activeStyle = { borderBottomColor: colorGreen, opacity: 1 }
+const activeStyle = { borderBottomColor: '#00AC7E', opacity: 1 }
 
 const Nav = () => (
   <nav className={styles.nav}>
