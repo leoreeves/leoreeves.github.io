@@ -15,7 +15,7 @@
   .navLink {
     margin-left: 20px;
     padding-bottom: 0.2em;
-    color: $color-text;
+    color: $color-green;
     text-decoration: none;
     font-family: $hind;
     font-weight: 600;
@@ -29,7 +29,7 @@
 
     &:hover {
       color: $color-green;
-      border-bottom-color: $color-green;
+      border-bottom-color: $color-green-highlighted;
       transition: all 0.1s ease-in;
     }
   }
