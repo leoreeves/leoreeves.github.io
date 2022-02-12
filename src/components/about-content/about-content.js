@@ -13,17 +13,17 @@ const AboutContent = () => (
       <div className={styles.aboutContent}>{about.content}</div>
     </div>
     <div className={styles.aboutRow}>
-      <h3 className={styles.aboutHeading}>{experienceHeading}</h3>
+      <h3 className={styles.experienceHeading}>{experienceHeading}</h3>
       <div className={styles.aboutContent}>
         {
           experience.map((experience, index) => {
             return (
               <div key={index}>
-                <h4 className={styles.experienceHeading}>
+                <h4 className={styles.firstRow}>
                   <span>{experience.name}</span>
                   <span>{experience.dates}</span>
                 </h4>
-                <div className={styles.experienceContent}>
+                <div className={styles.secondRow}>
                   <span>{experience.role}</span>
                 </div>
                 <hr/>

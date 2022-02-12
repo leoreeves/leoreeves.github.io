@@ -27,26 +27,43 @@
     font-size: 1.5em;
   }
 
+  .experienceHeading {
+    @extend .aboutHeading;
+    margin-bottom: -10px;
+  }
+
   .aboutContent {
     font-family: $open-sans;
     line-height: 1.5em;
   }
 
-  .experienceHeading {
+  .firstRow {
     font-family: $hind;
     font-size: 1.1em;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
   }
 
+  .secondRow {
+    margin-bottom: 20px;
+  }
+
+  .experiencesWrapper {
+    h4:first-of-type {
+      margin-top: 0;
+    }
+  }
+
   .developmentHeading {
     margin-top: 0;
     margin-bottom: 10px;
+    font-size: 1.1em;
   }
 
   .designHeading {
+    font-size: 1.1em;
     margin-bottom: 10px;
   }
 
