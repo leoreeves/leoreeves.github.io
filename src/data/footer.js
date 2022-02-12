@@ -1,5 +1,5 @@
 export const copyrightLink = {
-  content:  `© ${new Date().getFullYear()} Leo Reeves`
+  name:  `© ${new Date().getFullYear()} Leo Reeves`
 }
 
 export const footerLinks = [

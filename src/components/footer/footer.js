@@ -8,7 +8,7 @@ const Footer = () => (
   <footer className={styles.footer}>
     <div className={styles.navContainer}>
       <Link className={styles.navLink} to="/">
-        {copyrightLink.content}
+        {copyrightLink.name}
       </Link>
       <div>
         {
