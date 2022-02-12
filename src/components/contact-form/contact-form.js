@@ -23,7 +23,6 @@ const ContactForm = () => (
         name="name"
         placeholder="Enter your name"
         required
-        autoFocus
       >
       </input>
       <label htmlFor="_replyto">
