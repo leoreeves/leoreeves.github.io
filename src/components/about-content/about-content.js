@@ -11,6 +11,7 @@ const AboutContent = () => (
     <div className={styles.aboutRow}>
       <h3 className={styles.aboutHeading}>{about.heading}</h3>
       <div className={styles.aboutContent}>{about.content}</div>
+      <p className={styles.aboutContent} dangerouslySetInnerHTML={{ __html: about.link }}></p>
     </div>
     <div className={styles.aboutRow}>
       <h3 className={styles.experienceHeading}>{experienceHeading}</h3>
