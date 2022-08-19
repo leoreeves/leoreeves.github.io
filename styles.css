@@ -80,9 +80,8 @@ h6 {
 :root {
   --main-bg-color: #1c1a27;
   --text-color: #fff;
-  --primary-button-color: #00ac7e;
-  --secondary-button-color: #008fb7;
-  --link-color: #00ac7e;
+  --primary-color: #00ac7e;
+  --secondary-color: #008fb7;
 }
 
 /* Styling */
@@ -97,7 +96,7 @@ body {
 
 /* Links */
 a {
-  color: var(--link-color)
+  color: var(--primary-color)
 }
 
 /* Buttons */
@@ -109,13 +108,13 @@ button {
 }
 
 .button-primary {
-  background-color: var(--primary-button-color);
-  border: 1px solid var(--primary-button-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .button-secondary {
-  background-color: var(--secondary-button-color);
-  border: 1px solid var(--secondary-button-color);
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 /* Nav */
@@ -134,9 +133,11 @@ nav {
   padding-left: 0;
 }
 
-.navigation-links li {
+.navigation-links li a {
   font-weight: 600;
   font-size: 1.3rem;
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 .navigation-links li:first-of-type {
