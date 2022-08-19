@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{RXBc:function(e,t,n){"use strict";n.r(t);var o=n("q1tI"),a=n.n(o),r=n("Eg6Q"),c=n("8k0H"),d=n("vrFN");t.default=function(){return a.a.createElement(c.a,null,a.a.createElement(d.a,{title:"Home",keywords:["Leo Reeves","frontend","developer"]}),a.a.createElement(r.a,{primaryHeading:"Leo Reeves",secondaryHeading:"Frontend Developer",buttonText:"Contact Me",buttonRoute:"/contact/"}))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-b2db3d2655348b4f0f32.js.map
