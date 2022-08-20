@@ -118,9 +118,9 @@
 
     const handleScrollToTopButtonVisibility = () => {
       const handleScroll = () => {
-        const scrollToTopButton = document.querySelector('.scroll-to-top-button')
+        const { classList } = document.querySelector('.scroll-to-top-button')
         const { scrollY } = window;
-        return scrollY >= 100 ? scrollToTopButton.classList.remove('hide') : scrollToTopButton.classList.add('hide')
+        return scrollY >= 100 ? classList.remove('hide') : classList.add('hide')
       }
       window.addEventListener('scroll', handleScroll);
     }
