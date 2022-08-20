@@ -96,7 +96,7 @@
     </section>
     <section id="contact">
       <h3>Contact me</h3>
-      <form method="post" class="contact-form" id="contact-form">
+      <form method="POST" class="contact-form" id="contact-form">
         <label for="name">Name</label>
         <input id="name" type="text" placeholder="Enter your name" required />
         <label for="email">Email</label>
@@ -119,7 +119,7 @@
           .reverse()
           .join('')
       const emailProvider = '@gmail.com';
-      const formUrl = `//formspree.io/${emailLabel}${emailProvider}`;
+      const formUrl = `https://formspree.io/f/${emailLabel}${emailProvider}`;
       document.querySelector('.contact-form').action = formUrl;
     }
 
