@@ -99,16 +99,34 @@
       </form>
       <button type="submit" form="contact" class="button-primary">Send message</button>
     </section>
-    <button class="scroll-to-top-button" onclick="window.scrollTo(0, 0)">&#8593;</button>
+    <button class="scroll-to-top-button hide" onclick="window.scrollTo(0, 0)">&#8593;</button>
   </main>
   <script>
-    const emailLabel =
-      ['o', 'i', 'l', 'o', 'f', 't', 'r', 'o', 'p', '+', 's', 'e', 'v', 'e', 'e', 'r', 'j', 'o', 'e', 'l']
-        .reverse()
-        .join('')
-    const emailProvider = '@gmail.com';
-    const formUrl = `//formspree.io/${emailLabel}${emailProvider}`;
-    document.querySelector('.contact-form').action = formUrl;
+    const setFormAction = () => {
+      const emailLabel =
+        ['o', 'i', 'l', 'o', 'f', 't', 'r', 'o', 'p', '+', 's', 'e', 'v', 'e', 'e', 'r', 'j', 'o', 'e', 'l']
+          .reverse()
+          .join('')
+      const emailProvider = '@gmail.com';
+      const formUrl = `//formspree.io/${emailLabel}${emailProvider}`;
+      document.querySelector('.contact-form').action = formUrl;
+    }
+
+    const handleScrollToTopButtonVisibility = () => {
+      const handleScroll = () => {
+        const scrollToTopButton = document.querySelector('.scroll-to-top-button')
+        var y = window.scrollY;
+        if (y >= 100) {
+          scrollToTopButton.classList.remove('hide')
+        } else {
+          scrollToTopButton.classList.add('hide')
+        }
+      }
+      window.addEventListener('scroll', handleScroll);
+    }
+
+    setFormAction()
+    handleScrollToTopButtonVisibility()
   </script>
 </body>
 
