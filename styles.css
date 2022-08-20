@@ -102,7 +102,12 @@ body {
 
 /* Links */
 a {
-  color: var(--link-color)
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid var(--primary-color);
 }
 
 /* Buttons */
@@ -112,6 +117,11 @@ button {
   color: var(--text-color);
   padding: 8px 16px;
   cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 4px 2px 24px 1px rgba(0, 0, 0, 0.24);
 }
 
 .button-primary {
@@ -145,7 +155,6 @@ nav {
 .navigation-links li a {
   font-weight: 600;
   font-size: 1.3rem;
-  color: var(--text-color);
   text-decoration: none;
 }
 
