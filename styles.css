@@ -237,6 +237,7 @@ section p {
 .contact-form textarea {
   margin-top: 8px;
   margin-bottom: 16px;
+  padding: 8px 12px;
 }
 
 .contact-form textarea {
