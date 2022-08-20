@@ -89,8 +89,7 @@
     </section>
     <section id="contact">
       <h3>Contact me</h3>
-      <!-- TODO: Obfuscate email -->
-      <form action="//formspree.io/" method="post" class="contact-form">
+      <form method="post" class="contact-form">
         <label for="name">Name</label>
         <input name="name" type="text" placeholder="Enter your name" required />
         <label for="email">Email</label>
@@ -101,6 +100,15 @@
       <button type="submit" form="contact" class="button-primary">Send message</button>
     </section>
   </main>
+  <script>
+    const emailLabel =
+      ['o', 'i', 'l', 'o', 'f', 't', 'r', 'o', 'p', '+', 's', 'e', 'v', 'e', 'e', 'r', 'j', 'o', 'e', 'l']
+        .reverse()
+        .join('')
+    const emailProvider = '@gmail.com';
+    const formUrl = `//formspree.io/${emailLabel}${emailProvider}`;
+    document.querySelector('.contact-form').action = formUrl;
+  </script>
 </body>
 
 </html>

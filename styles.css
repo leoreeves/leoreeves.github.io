@@ -225,6 +225,7 @@ section p {
 .contact-form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 8px;
 }
 
 .contact-form label {
