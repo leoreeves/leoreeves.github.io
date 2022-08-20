@@ -242,6 +242,14 @@ section p {
   min-height: 150px;
 }
 
+.scroll-to-top-button {
+  background: coral;
+  border: 1px solid coral;
+  position: fixed;
+  bottom: 16px;
+  right: 16px
+}
+
 /* Responsiveness */
 @media only screen and (max-width: 650px) {
   html {
