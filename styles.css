@@ -122,10 +122,11 @@ button {
 /* Nav */
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  min-height: 80px;
   margin-bottom: 20px;
+  padding: 20px 0;
 }
 
 .navigation-links {
@@ -166,14 +167,14 @@ header {
 
 .button-wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 20px;
+  gap: 12px;
 }
 
 .profile-picture {
   width: 180px;
   height: 180px;
-  height: auto;
 }
 
 /* Sections */
@@ -214,4 +215,25 @@ section p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    padding: 0 30px;
+    font-size: 0.8rem;
+  }
+
+  .header-content-wrapper {
+    width: 100%;
+  }
+
+  .profile-picture {
+    width: 100%;
+    height: auto;
+  }
 }
