@@ -186,11 +186,6 @@ header {
   gap: 12px;
 }
 
-.profile-picture {
-  width: 180px;
-  height: 180px;
-}
-
 /* Sections */
 section {
   margin: 40px 0;
