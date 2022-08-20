@@ -86,6 +86,10 @@ h6 {
 }
 
 /* Styling */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--main-bg-color);
   color: var(--text-color);
@@ -184,7 +188,7 @@ section {
 }
 
 section:last-of-type {
-  padding-bottom: 28px;
+  padding-bottom: 40px;
 }
 
 section h3 {
@@ -215,6 +219,26 @@ section p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Contact */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.contact-form textarea {
+  min-height: 150px;
 }
 
 /* Responsiveness */

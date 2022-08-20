@@ -19,7 +19,7 @@
   <nav>
     <ul class="navigation-links">
       <li><a href="#">Home</a></li>
-      <li><a href="./contact">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
     <ul class="navigation-links">
       <li><a href="https://github.com/leoreeves" target="_blank">GitHub</a></li>
@@ -31,7 +31,7 @@
       <h1 class="header-heading">Leo Reeves</h1>
       <h2 class="header-subheading">Frontend developer</h2>
       <div class="button-wrapper">
-        <button class="button-primary">Contact me</button>
+        <button class="button-primary" onclick="location.href='#contact'">Contact me</button>
         <button class="button-secondary"
           onclick="location.href='https://docs.google.com/document/d/1Rwx-wpwu9rXuCTLOyKGKw8a_DWaRyB7Wt-mrWsT6Jw0/export?format=pdf'">Download
           CV</button>
@@ -86,6 +86,19 @@
       <p>JavaScript (ES6+), TypeScript, Vue.js, React, Angular 4+, Semantic HTML, CSS, Sass, Git</p>
       <h4>Design</h4>
       <p>Figma, Photoshop, After Effects</p>
+    </section>
+    <section id="contact">
+      <h3>Contact me</h3>
+      <!-- TODO: Obfuscate email -->
+      <form action="//formspree.io/" method="post" class="contact-form">
+        <label for="name">Name</label>
+        <input name="name" type="text" placeholder="Enter your name" required />
+        <label for="email">Email</label>
+        <input name="email" type="email" placeholder="Enter your email address" required />
+        <label for="message">Message</label>
+        <textarea name="message" placeholder="Enter your message" required></textarea>
+      </form>
+      <button type="submit" form="contact" class="button-primary">Send message</button>
     </section>
   </main>
 </body>
