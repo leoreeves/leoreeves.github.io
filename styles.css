@@ -138,6 +138,7 @@ nav {
   display: flex;
   list-style: none;
   list-style-position: inside;
+  cursor: pointer;
   padding-left: 0;
 }
 
