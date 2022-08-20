@@ -18,7 +18,7 @@
 <body>
   <nav>
     <ul class="navigation-links">
-      <li><a onclick="window.scrollTo(0, 0)">Home</a></li>
+      <li><a onclick="scrollToTop()">Home</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <ul class="navigation-links">
@@ -31,9 +31,9 @@
       <h1 class="header-heading">Leo Reeves</h1>
       <h2 class="header-subheading">Frontend developer</h2>
       <div class="button-wrapper">
-        <button class="button-primary" onclick="location.href='#contact'">Contact me</button>
+        <button class="button-primary" onclick="setLocationHref('#contact')">Contact me</button>
         <button class="button-secondary"
-          onclick="location.href='https://docs.google.com/document/d/1Rwx-wpwu9rXuCTLOyKGKw8a_DWaRyB7Wt-mrWsT6Jw0/export?format=pdf'">Download
+          onclick="setLocationHref('https://docs.google.com/document/d/1Rwx-wpwu9rXuCTLOyKGKw8a_DWaRyB7Wt-mrWsT6Jw0/export?format=pdf')">Download
           CV</button>
       </div>
     </div>
@@ -100,9 +100,12 @@
       </form>
       <button type="submit" form="contact-form" class="button-primary">Send message</button>
     </section>
-    <button class="scroll-to-top-button hide" onclick="window.scrollTo(0, 0)">&#8593;</button>
+    <button class="scroll-to-top-button hide" onclick="scrollToTop()">&#8593;</button>
   </main>
   <script>
+    const scrollToTop = () => window.scrollTo(0, 0)
+    const setLocationHref = (href) => location.href = href
+
     const setFormAction = () => {
       const emailLabel =
         ['o', 'i', 'l', 'o', 'f', 't', 'r', 'o', 'p', '+', 's', 'e', 'v', 'e', 'e', 'r', 'j', 'o', 'e', 'l']
