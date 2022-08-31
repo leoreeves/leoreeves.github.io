@@ -1,127 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <!-- Meta -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="msapplication-TileColor" content="#DA532C">
-  <meta name="theme-color" content="#1C1A27">
-  <meta name="description"
-    content="My name is Leo Reeves and I'm a frontend developer who is passionate about building beautiful, accessible and responsive websites and apps.">
-  <meta name="author" content="Leo Reeves">
-  <!-- Styles -->
-  <link rel="stylesheet" href="./styles.css">
-  <!-- Icons  -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <!-- Title -->
-  <title>Leo Reeves</title>
-</head>
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#DA532C">
+    <meta name="theme-color" content="#1C1A27">
+    <meta name="description"
+      content="My name is Leo Reeves and I'm a frontend developer who is passionate about building accessible, beautiful and responsive websites and apps.">
+    <meta name="author" content="Leo Reeves">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Icons  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Title -->
+    <title>Leo Reeves</title>
+  </head>
 
-<body>
-  <nav>
-    <ul class="navigation-links">
-      <li><a href="#" onclick="scrollToTop()">Home</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <ul class="navigation-links">
-      <li><a href="https://github.com/leoreeves" target="_blank">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/leoreeves/">LinkedIn</a></li>
-    </ul>
-  </nav>
-  <header>
-    <div class="header-content-wrapper">
-      <h1 class="header-heading">Leo Reeves</h1>
-      <h2 class="header-subheading">Frontend developer</h2>
-      <div class="button-wrapper">
-        <button class="button-primary" onclick="setLocationHref('#contact')">Contact me</button>
-        <button class="button-secondary"
-          onclick="setLocationHref('https://docs.google.com/document/d/1Rwx-wpwu9rXuCTLOyKGKw8a_DWaRyB7Wt-mrWsT6Jw0/export?format=pdf')">Download
-          CV</button>
-      </div>
-    </div>
-    <img src="https://avatars.githubusercontent.com/u/15375448" class="profile-picture"
-      alt="Profile photo of Leo Reeves" width="180" height="180" />
-  </header>
-  <main>
-    <section>
-      <h3>About me</h3>
-      <p>I’m a self-taught developer with a keen eye for detail, strong knowledge of technologies and adept at solving
-        complex problems. I’m passionate about building beautiful, responsive and accessible websites and apps.</p>
-      <p>Examples of some small side projects I’ve worked on can be found at my <a
-          href="https://github.com/leoreeves/projects" target="_blank">GitHub</a>.</p>
-    </section>
-    <section>
-      <h3>Experience</h3>
-      <div class="experience-wrapper">
-        <div class="row-wrapper">
-          <div class="row">
-            <span>Prolific</span>
-            <span>Jul. 2019 – Present</span>
-          </div>
-          <div class="row">
-            <span>Frontend engineer (remote)</span>
-          </div>
-        </div>
-        <div class="row-wrapper">
-          <div class="row">
-            <span>Lavanda</span>
-            <span>Sept. 2017 – Jun. 2019</span>
-          </div>
-          <div class="row">
-            <span>Frontend engineer</span>
-          </div>
-        </div>
-        <div class="row-wrapper">
-          <div class="row">
-            <span>Rapid Tender</span>
-            <span>Apr. 2017 – Aug. 2017</span>
-          </div>
-          <div class="row">
-            <span>Junior software developer</span>
-          </div>
+  <body>
+    <nav>
+      <ul class="navigation-links">
+        <li><a href="#" onclick="scrollToTop()">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="navigation-links">
+        <li><a href="https://github.com/leoreeves" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/leoreeves/">LinkedIn</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="header-content-wrapper">
+        <h1 class="header-heading">Leo Reeves</h1>
+        <h2 class="header-subheading">Frontend developer</h2>
+        <div class="button-wrapper">
+          <button class="button-primary" onclick="setLocationHref('#contact')">Contact me</button>
+          <button class="button-secondary"
+            onclick="setLocationHref('https://docs.google.com/document/d/1Rwx-wpwu9rXuCTLOyKGKw8a_DWaRyB7Wt-mrWsT6Jw0/export?format=pdf')">Download
+            CV</button>
         </div>
       </div>
-    </section>
-    <section>
-      <h3>Skills</h3>
-      <h4>Development</h4>
-      <p>JavaScript (ES6+), TypeScript, Vue.js, React, Angular 4+, Semantic HTML, CSS, Sass, Git</p>
-      <h4>Design</h4>
-      <p>Figma, Photoshop, After Effects</p>
-    </section>
-    <section id="contact">
-      <h3>Contact me</h3>
-      <form method="POST" class="contact-form" id="contact-form" action="https://formspree.io/f/meqdqyvr">
-        <label for="name">Name</label>
-        <input id="name" type="text" placeholder="Enter your name" required />
-        <label for="email">Email</label>
-        <input id="email" type="email" placeholder="Enter your email address" required />
-        <label for="message">Message</label>
-        <textarea id="message" placeholder="Enter your message" required></textarea>
-      </form>
-      <button type="submit" form="contact-form" class="button-primary">Send message</button>
-    </section>
-    <button class="scroll-to-top-button hide" onclick="scrollToTop()">&#8593;</button>
-  </main>
-  <script>
-    const scrollToTop = () => window.scrollTo(0, 0)
-    const setLocationHref = (href) => location.href = href
-    const handleScrollToTopButtonVisibility = () => {
-      const handleScroll = () => {
-        const { classList } = document.querySelector('.scroll-to-top-button')
-        const { scrollY } = window;
-        return scrollY >= 100 ? classList.remove('hide') : classList.add('hide')
+      <img src="https://avatars.githubusercontent.com/u/15375448" class="profile-picture" alt="Profile photo of Leo Reeves"
+        width="180" height="180" />
+    </header>
+    <main>
+      <section>
+        <h3>About me</h3>
+        <p>I am a self-taught developer with a keen eye for detail, product mindset, strong knowledge of technology and adept
+          at solving complex problems. I follow clean code principles and am passionate about building accessible, beautiful
+          and responsive websites and apps.</p>
+        <p>Examples of some small projects I have worked on can be found at my <a
+            href="https://github.com/leoreeves/projects" target="_blank">GitHub</a>.</p>
+      </section>
+      <section>
+        <h3>Experience</h3>
+        <div class="experience-wrapper">
+          <div class="row-wrapper">
+            <div class="row">
+              <span>Prolific</span>
+              <span>Jul. 2019 – Present</span>
+            </div>
+            <div class="row">
+              <span>Frontend engineer (remote)</span>
+            </div>
+          </div>
+          <div class="row-wrapper">
+            <div class="row">
+              <span>Lavanda</span>
+              <span>Sept. 2017 – Jun. 2019</span>
+            </div>
+            <div class="row">
+              <span>Frontend engineer</span>
+            </div>
+          </div>
+          <div class="row-wrapper">
+            <div class="row">
+              <span>Rapid Tender</span>
+              <span>Apr. 2017 – Aug. 2017</span>
+            </div>
+            <div class="row">
+              <span>Junior software developer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3>Skills</h3>
+        <h4>Development</h4>
+        <p>JavaScript (ES6+), TypeScript, Vue.js, React, Angular 4+, Semantic HTML, CSS, Sass, Git, Bootstrap, Storybook</p>
+        <h4>Design</h4>
+        <p>Figma, Photoshop, After Effects</p>
+      </section>
+      <section id="contact">
+        <h3>Contact me</h3>
+        <form method="POST" class="contact-form" id="contact-form" action="https://formspree.io/f/meqdqyvr">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Enter your name" required />
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Enter your email address" required />
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Enter your message" required></textarea>
+        </form>
+        <button type="submit" form="contact-form" class="button-primary">Send message</button>
+      </section>
+      <button class="scroll-to-top-button hide" onclick="scrollToTop()">&#8593;</button>
+    </main>
+    <script>
+      const scrollToTop = () => window.scrollTo(0, 0)
+      const setLocationHref = (href) => location.href = href
+      const handleScrollToTopButtonVisibility = () => {
+        const handleScroll = () => {
+          const { classList } = document.querySelector('.scroll-to-top-button')
+          const { scrollY } = window;
+          return scrollY >= 100 ? classList.remove('hide') : classList.add('hide')
+        }
+        window.addEventListener('scroll', handleScroll);
       }
-      window.addEventListener('scroll', handleScroll);
-    }
 
-    handleScrollToTopButtonVisibility()
-  </script>
-</body>
+      handleScrollToTopButtonVisibility()
+    </script>
+  </body>
 
 </html>
